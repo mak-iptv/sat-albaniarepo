@@ -259,11 +259,14 @@
 </addon>
 
 <addon id="plugin.video.SatAlbania" name="[B][COLOR red]Live Sat Albania[/COLOR][/B]" version="1.0" provider-name="SatAlbania">
-  <extension point="xbmc.python.pluginsource"
+  <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
                library="default.py">
         <provides>video</provides>
     </extension>
-   
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
 <summary lang="en_GB">[COLOR red]Sat-Albania[/COLOR]</summary>
 		<description lang="en_GB">[COLOR red]Sat-Albania[/COLOR]</description>
 		<news lang="en_GB">Albania</news>		
