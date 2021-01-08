@@ -257,15 +257,6 @@
     <platform>android-aarch64</platform>
   </extension>
 </addon>
-
-
-	
-	
-		
-				
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-				
 <addon id="plugin.video.SatAlbania" name="[B][COLOR red]Live Sat Albania[/COLOR][/B]" version="1.0" provider-name="SatAlbania">
   <extension point="xbmc.python.pluginsource"
                library="default.py">
