@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<addon id="repository.satalbania" name="[B][COLOR lime]Sat Albania[B][COLOR white] Repository[/COLOR][/B]" version="1.0" provider-name="Satalbania">
+<addon id="repository.satalbania" name="[B][COLOR lime]Sat Albania[B][COLOR white] Repository[/COLOR][/B]" version="1.1" provider-name="Satalbania">
 	<extension point="xbmc.addon.repository" name="SatAlbania repository">
-    <info compressed="false">https://stbemutv.000webhostapp.com/repo/programi/addons.xml</info>
-		<checksum>https://stbemutv.000webhostapp.com/repo/programi/addons.xml.md5</checksum>
-		<datadir zip="true">https://stbemutv.000webhostapp.com/repo/programi/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/zips/</datadir>
 	</extension>
 	  <extension point="xbmc.addon.metadata">
 		<summary lang="en">Sat  Albania Repository</summary>
