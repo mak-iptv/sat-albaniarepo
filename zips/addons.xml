@@ -258,6 +258,8 @@
   </extension>
 </addon>
 
+
+
 <addon id="plugin.video.SatalbaniaTV" name="[B][COLOR limegreen]SatAlbaniaTV[/B][/COLOR] [B][COLOR white]AlbaAddon[/B][/COLOR]" version="1.0.4" provider-name="SatAlbaniaTV">
   <requires>
     
@@ -266,12 +268,14 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+  <platform>all</platform>
 <summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. Za vise informacija [COLOR=cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR].</summary>
 <summary lang="en">This add-on does not contain any content within the add-on, but only the links that lead to streams. More information on [COLOR cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR]</summary>
 <description lang="hr_HR">Addon je namijenjen za Balkan Tv.[COLOR=cyan]Facebook[/COLOR]  [COLOR=limegreen]Sat Albania[/COLOR]</description>
 <description lang="en">The addon is intended for Balkan Tv.[COLOR=cyan]forum[/COLOR]  [COLOR=limegreen]Sat Albania[/COLOR].</description>
-<description lang="en">[B]Sat Albania[/B][CR] [B]***OpenScrapers Edition***[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-</extension>
+
+		
+  </extension>
 </addon>
 
 <addon id="plugin.video.MakiptvTv" name="[B][COLOR red]Live MakiptvTv[/COLOR][/B]" version="1.0" provider-name="MakiptvTv">
