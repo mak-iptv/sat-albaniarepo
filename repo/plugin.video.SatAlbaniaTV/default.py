@@ -42,7 +42,7 @@ class NoRedirection(urllib2.HTTPErrorProcessor):
        
 Q1BiYXNl = 'https://raw.githubusercontent.com/mak-iptv/iptv/master/Balkanlive.xml'
 
-addon = xbmcaddon.Addon('plugin.video.MakiptvTv')
+addon = xbmcaddon.Addon('plugin.video.SatalbaniaTV')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
