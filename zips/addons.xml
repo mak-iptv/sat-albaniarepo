@@ -258,9 +258,7 @@
   </extension>
 </addon>
 
-
-
-<addon id="plugin.video.Satalbania" name="[B][COLOR limegreen]SatAlbaniaTV[/B][/COLOR] [B][COLOR white]Addon[/B][/COLOR]" version="1.0.4" provider-name="SatAlbaniaTV">
+<addon id="plugin.video.SatAlbaniaTV" name="[B][COLOR limegreen]SatAlbaniaTV[/B][/COLOR] [B][COLOR white]AddonTV[/B][/COLOR]" version="1.0.4" provider-name="SatAlbaniaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -291,9 +289,6 @@
   </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-				
 <addon id="plugin.video.MakiptvTv" name="[B][COLOR red]Live MakiptvTv[/COLOR][/B]" version="1.0" provider-name="MakiptvTv">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
