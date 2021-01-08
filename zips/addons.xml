@@ -258,33 +258,20 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.SatAlbaniaTV" name="[B][COLOR limegreen]SatAlbaniaTV[/B][/COLOR] [B][COLOR white]AddonTV[/B][/COLOR]" version="1.0.4" provider-name="SatAlbaniaTV">
+<addon id="plugin.video.SatalbaniaTV" name="[B][COLOR limegreen]SatAlbaniaTV[/B][/COLOR] [B][COLOR white]AlbaAddon[/B][/COLOR]" version="1.0.4" provider-name="SatAlbaniaTV">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-	<import addon="script.module.urlresolver" />
-	<import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
+    
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-<summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. Za vise informacija [COLOR=cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR].</summary>
-<summary lang="en">This add-on does not contain any content within the add-on, but only the links that lead to streams. More information on [COLOR cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR]</summary>
-<description lang="hr_HR">Addon je namijenjen za Balkan Tv.[COLOR=cyan]Facebook[/COLOR] grupa: [COLOR=limegreen]Sat Albania[/COLOR]</description>
-<description lang="en">The addon is intended for Balkan Tv.[COLOR=cyan]forum[/COLOR] forum: [COLOR=limegreen]Sat Albania[/COLOR].</description>
-
-<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+  		<summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. Za vise informacija [COLOR=cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR].</summary>
+		<summary lang="en">This add-on does not contain any content within the add-on, but only the links that lead to streams. More information on [COLOR cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR]</summary>
+		<description lang="hr_HR">Addon je namijenjen za Balkan Tv.[COLOR=cyan]Facebook[/COLOR]  [COLOR=limegreen]Sat Albania[/COLOR]</description>
+        <description lang="en">The addon is intended for Balkan Tv.[COLOR=cyan]forum[/COLOR]  [COLOR=limegreen]Sat Albania[/COLOR].</description>
+		<description lang="en">[B]Sat Albania[/B][CR] [B]***OpenScrapers Edition***[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		
   </extension>
 </addon>
