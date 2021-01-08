@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!--
+   * The range 30000-30099 - 99
+   -->
+  <string id="30000">הצג עוד</string>
+  <string id="30001">פופקורן טיים לקודי - חיפוש</string>
+  <string id="30002">חיפוש</string>
+  <string id="30003">עיון לפי סגנון</string>
+  <string id="30004">הפופולריים ביותר</string>
+  <string id="30005">המדורגים ביותר</string>
+  <string id="30006">נוספו לאחרונה</string>
+  <string id="30007">אחזור תוכן</string>
+  <string id="30008">למטה: %s/s, למעלה: %s/s</string>
+  <string id="30009">נגן</string>
+  <string id="30010">הגדרות ההרחבה</string>
+  <string id="30011">האם ברצונך להפעיל את הסרט בתלת-ממד?</string>
+  <string id="30012">כתוביות:</string>
+  <string id="30013">האם אתה בטוח שברצונך לאפס הגדרות טורנט?</string>
+  <string id="30014">אלו רק הגדרות עם טורנט בכותרת שיושפעו.</string>
+  <string id="30015">זרעים: </string>
+  <string id="30016">אחזור מידע</string>
+  <string id="30017">בוצע</string>
+  <string id="30018">אחזור מידע</string>
+  <string id="30019">מוריד כתוביות</string>
+  <string id="30020">מתחיל ניגון</string>
+  <string id="30021">מוריד</string>
+  <string id="30022">ההורדה הסתיימה</string>
+  <string id="30023">הגדרת האיכות לא נמצאה</string>
+  <string id="30024">נסיון </string>
+  <string id="30025">מיון לפי שם</string>
+  <string id="30026">מיון לפי שנה</string>
+  <string id="30027">עודכן לאחרונה</string>
+  <string id="30028">מחפש</string>
+  <string id="30029">מועדפים</string>
+  <string id="30030">סרטים</string>
+  <string id="30031">מתחיל</string>
+  <string id="30032">צפה בהמשך</string>
+
+  <string id="30033">האם אתה בטוח שברצונך למחוק את המטמון?</string>
+  <string id="30034">שם:</string>
+  <string id="30035">שם חדש:</string>
+  <string id="30036">ממתין</string>
+  <string id="30037">בודק תאריך</string>
+  <string id="30038">Trailer</string>
+  <string id="30039">הוסף למועדפים בפופקורן</string>
+  <string id="30040">הסר מהמועדפים בפופקורן</string>
+  <string id="30041">הוסף לרשימת צפייה בהמשך</string>
+  <string id="30042">הסר מרשימת צפייה בהמשך</string>
+  <string id="30043">הסר את הכל מהמועדפים בפופקורן</string>
+  <string id="30044">הסר הכל מרשימת צפייה בהמשך בפופקורן</string>
+
+  <!--
+   * Settings
+   * The range 30100-30199 - 99
+   -->
+
+  <string id="30101">נקה קובצי מדיה</string>
+  <string id="30102">קבצים</string>
+  <string id="30103">נתיב הורדה</string>
+  <string id="30104">שמור את הקבצים לאחר עצירת ניגון או לאחר ההורדה</string>
+  <string id="30105">כתוביות</string>
+  <string id="30106">רק 720p</string>
+  <string id="30107">העדפה</string>
+  <string id="30108">רשת</string>
+  <string id="30109">ניגון וידאו תלת ממדי</string>
+  <string id="30110">קצב הורדה מרבי (קילובייט - 0: ללא הגבלה)</string>
+  <string id="30111">הצפנה</string>
+  <string id="30112">גלובלי</string>
+  <string id="30113">תחזוקה</string>
+  <string id="30114">נקה את פרטי המדיה</string>
+  <string id="30115">תחומים של פרוקסי</string>
+  <string id="30116">סרטים (מארחים המופרדים באמצעות פסיק)</string>
+  <string id="30117">איכות וידאו</string>
+  <string id="30118">1080p ומטה</string>
+  <string id="30119">עדיפות ראשונה</string>
+  <string id="30120">עדיפות שנייה</string>
+  <string id="30121">עדיפות שלישית</string>
+  <string id="30122">קצב העלאה מקסימלי (קילובייט - 0: ללא הגבלה - מינימום 15 kB/s)</string>
+  <string id="30123">כפוי</string>
+  <string id="30124">מאופשר</string>
+  <string id="30125">מושבת</string>
+  <string id="30126">לא</string>
+  <string id="30127">שאל אותי</string>
+  <string id="30128">תמיד</string>
+  <string id="30129">סדרות (מארחים המופרדים באמצעות פסיק)</string>
+  <string id="30130">מתקדם</string>
+  <string id="30131">הגדרות טורנט</string>
+  <string id="30132">ספקים</string>
+  <string id="30133">עמיתים (טורנט)</string>
+  <string id="30134">תכונות (טורנט)</string>
+  <string id="30135">יומן / מידע באגים</string>
+  <string id="30136">שמור רק קבצים לא מלאים לאחר היציאה</string>
+  <string id="30137">שמור רק קבצים  מלאים לאחר היציאה</string>
+  <string id="30138">נוסף (טורנט)</string>
+  <string id="30139">פורט לחיבורים נכנסים</string>
+  <string id="30140">תשתמש בפורט אקראי (49152-65535)</string>
+  <string id="30141">אפשר פרוטוקול TCP</string>
+  <string id="30142">אפשר פרוטוקול UTP (uTorrent Transport Protocol)</string>
+  <string id="30143">הגבלה של מספר החיבורים הכולל</string>
+  <string id="30144">איפוס</string>
+  <string id="30145">מספר העמיתים שינסו להתחבר לאחר התגובה הראשונית</string>
+  <string id="30146">המספר הכולל של ניסיונות חיבור לשנייה</string>
+  <string id="30147">מספר השניות לפני שנסיון החיבור יכשל</string>
+
+  <string id="30149">מספר השניות להמתנה בין כשלי חיבור</string>
+  <string id="30150">מספר ניסיונות הכישלון לפני מחיקת עמיתים</string>
+  <string id="30151">אפשר DHT (Distributed Hash Table)</string>
+  <string id="30152">אפשר LSD (Local Service Discovery)</string>
+  <string id="30153">אפשר NATPMP (NAT Port Mapping Protocol)</string>
+  <string id="30154">אפשר UPnP (Universal Plug and Play)</string>
+  <string id="30155">אפשר שליחת בקשה מהסקייפר לטראקר (Tracker Scrape)</string>
+  <string id="30156">טראקר (כתובות מופרדות באמצעות פסיק)</string>
+  <string id="30157">ראוטרים של DHT (מארח מופרד באמצעות פסיק: זוגות פורטים)</string>
+  <string id="30158">אפשר איתור באגים</string>
+  <string id="30159">רשת (טורנט)</string>
+  <string id="30160">חיפוש</string>
+ 
+  <string id="30162">סרט</string>
+  <string id="30163">סדרה</string>
+  <string id="30164">סדר עדיפויות של כתוביות פגומות בשמיעה</string>
+  <string id="30165">אסוף מידע על הסרט מתוך</string>
+
+
+  <string id="30168">קבל כתוביות מתוך</string>
+  <string id="30169">קבל מידע על סדרות מתוך</string>
+  <string id="30170">ללא</string>
+  <string id="30171">מסד הנתונים של הסרט</string>
+  <string id="30172">כתוביות - YIFY</string>
+  <string id="30173">רק 480p</string>
+  <string id="30174">וידאו</string>
+
+  <!--
+   * Languages
+   * The range 30200-30299 - 99
+   -->
+
+  <string id="30201">אלבנית</string>
+  <string id="30202">ערבית</string>
+  <string id="30203">בנגאלית</string>
+  <string id="30204">פורטוגזית ברזילאית</string>
+  <string id="30205">בולגרית</string>
+  <string id="30206">סינית</string>
+  <string id="30207">קרואטית</string>
+  <string id="30208">צ'כית</string>
+  <string id="30209">דנית</string>
+  <string id="30210">הולנדית</string>
+  <string id="30211">אנגלית</string>
+  <string id="30212">פרסית</string>
+  <string id="30213">פינית</string>
+  <string id="30214">צרפתית</string>
+  <string id="30215">גרמנית</string>
+  <string id="30216">יוונית</string>
+  <string id="30217">עברית</string>
+  <string id="30218">הונגרית</string>
+  <string id="30219">אינדונזית</string>
+  <string id="30220">איטלקית</string>
+  <string id="30221">יפנית</string>
+  <string id="30222">קוראנית</string>
+  <string id="30223">ליטאית</string>
+  <string id="30224">מקדונית</string>
+  <string id="30225">מאלאית</string>
+  <string id="30226">נורווגית</string>
+  <string id="30227">פולנית</string>
+  <string id="30228">פורטוגזית</string>
+  <string id="30229">רומנית</string>
+  <string id="30230">רוסית</string>
+  <string id="30231">סרבית</string>
+  <string id="30232">סלובנית</string>
+  <string id="30233">ספרדית</string>
+  <string id="30234">שוודית</string>
+  <string id="30235">תאילנדית</string>
+  <string id="30236">טורקית</string>
+  <string id="30237">אורדו</string>
+  <string id="30238">ויאטנמית</string>
+
+  <!--
+   * Notify
+   * The range 30300-30399 - 99
+   -->
+  <string id="30300">לא ניתן למצוא את היציאה להתקשרות אל-torrent2http</string>
+  <string id="30301">המטמון נוקה</string>
+  <string id="30302">מערכת ההפעלה שלך אינה נתמכת</string>
+ 
+  <string id="30304">לא התקבלו נתונים כלשהם</string>
+  <string id="30305">לא התקבלו סרטים כלשהם</string>
+ 
+ 
+  <string id="30308">אירעה שגיאה לא ידועה</string>
+ 
+  <string id="30310">נתיב ההורדה אינו קיים. בדוק את הגדרות ההרחבה שלך</string>
+ 
+ 
+  <string id="30313">אירעה שגיאה טורנט</string>
+  <string id="30314">הגדרות טורנט אופסו</string>
+  <string id="30315">לא נמצאו מקורות לסרטים או לסדרות</string>
+  <string id="30316">הקובץ טורנט לא הכיל וידאו</string>
+  <string id="30317">החיבור לא נענה לפני פסק הזמן</string>
+  <string id="30318">הניגון מסתיים עקב פסק זמן</string>
+  <string id="30319">הורדה למיקום משותף ברשת אינה נתמכת. בדוק את הגדרות ההרחבה שלך</string>
+  <string id="30320">לא ניתן למצוא את torrent2http</string>
+  <string id="30321">לא ניתן לבצע הפעלה של torrent2http </string>
+  <string id="30322">לא ניתן ליצור ספריית מטמון</string>
+  <string id="30323">אין מספיק מקום פנוי לניגון. נא לפנות מקום או לבחור מיקום הורדה אחר</string>
+  <string id="30324">קצב ההעלאה המקסימלי חייב להיות מעל 15 קילובייט לשנייה. אנא עבור להגדרות ההרחבה כדי להגדיר מהירות מינימלית של 15 קילובייט לשנייה</string>
+  <string id="30325">אתה צריך יותר שטח אחסון כדי לנגן באיכות %s ו- %s  או לבחור איכות נמוכה יותר</string>
+  <string id="30326">אתה צריך יותר שטח אחסון כדי לנגן באיכות %s או לבחור איכות נמוכה יותר</string>
+  <string id="30327">לא התקבלו תוצאות</string>
+  <string id="30328">לא ניתן היה לקבל את רשימת המדיה כי הדומיין לא היה פעיל</string>
+  <string id="30329">ארעה שגיאה בתגובה מהמקורות</string>
+ 
+  <!--
+   * categories
+   * The range 30350-30353 - 4
+  -->
+  <string id="30350">סרטים</string>
+  <string id="30351">סדרות</string>
+  <string id="30352">אנימה</string>
+  <string id="30353">30350,30351,30352</string>
+
+  <!--
+   * Genres
+   * The range 30400-30499 - 99
+   * See http://www.imdb.com/genre/
+   -->
+  <string id="30400">פעולה</string>
+  <string id="30401">הרפתקאות</string>
+  <string id="30402">אנימציה</string>
+  <string id="30403">קומדיה</string>
+  <string id="30404">פשע</string>
+  <string id="30405">אסונות</string>
+  <string id="30406">תיעודי</string>
+  <string id="30407">דרמה</string>
+  <string id="30408">מערבון</string>
+  <string id="30409">משפחה</string>
+  <string id="30410">סרטי כיף</string>
+  <string id="30411">פנטזיה</string>
+  <string id="30412">סרט אפל</string>
+  <string id="30413">היסטורי</string>
+  <string id="30414">אימה</string>
+  <string id="30415">הודי</string>
+  <string id="30416">מוזיקה</string>
+  <string id="30417">תעלומה</string>
+  <string id="30418">כביש</string>
+  <string id="30419">רומנטי</string>
+  <string id="30420">מדע בדיוני</string>
+  <string id="30421">קצר</string>
+  <string id="30422">ספורט</string>
+  <string id="30423">אירועי ספורט</string>
+  <string id="30424">מתח גבוה</string>
+  <string id="30425">מותחן</string>
+  <string id="30426">סרט טלביזיוני</string>
+  <string id="30427">מלחמה</string>
+  <string id="30428">מערבון</string>
+
+  <string id="30450">פעולה</string>
+  <string id="30451">אנימהEcchi</string>
+  <string id="30452">אנימה Harem</string>
+  <string id="30453">רומנטי</string>
+  <string id="30454">בית ספר</string>
+  <string id="30455">על טבעי</string>
+  <string id="30456">דרמה</string>
+  <string id="30457">קומדיה</string>
+  <string id="30458">תעלומה</string>
+  <string id="30459">משטרה</string>
+
+  <string id="30461">ספורט</string>
+  <string id="30462">אנימה - Mecha</string>
+  <string id="30463">מדע בדיוני</string>
+  <string id="30464">ריאליסטי</string>
+  <string id="30465">פנטזיה</string>
+  <string id="30466">הרפתקאות</string>
+  <string id="30467">שפיכות דמים</string>
+  <string id="30468">מוזיקה</string>
+  <string id="30469">פסיכולוגי</string>
+  <string id="30470">אנימה Shoujo Ai</string>
+  <string id="30471">אנימה Yuri</string>
+  <string id="30472">קסם</string>
+  <string id="30473">אימה</string>
+  <string id="30474">מותחן</string>
+  <string id="30475">שינוי מגדר</string>
+  <string id="30476">פרודיה</string>
+  <string id="30477">היסטורי</string>
+  <string id="30478">מירוץ</string>
+  <string id="30479">סמוראי</string>
+  <string id="30480">כוחות על</string>
+  <string id="30481">צבע</string>
+  <string id="30482">דמנציה</string>
+  <string id="30483">אנימה Mahou Shounen</string>
+  <string id="30484">משחק</string>
+  <string id="30485">אמנויות לחימה</string>
+  <string id="30486">ערפד</string>
+  <string id="30487">ילדים</string>
+  <string id="30488">אנימה Mahou Shoujo</string>
+  <string id="30489">חלל</string>
+  <string id="30490">אנימה Shounen Ai</string>
+  <string id="30498">30450,30451,30452,30453,30454,30455,30456,30457,30458,30459,30461,30462,30463,30464,30465,30466,30467,30468,30469,30470,30471,30472,30473,30474,30475,30476,30477,30478,30479,30480,30481,30482,30483,30484,30485,30486,30487,30488,30489,30490</string>
+  <string id="30499">30400,30401,30402,30403,30404,30405,30406,30407,30408,30409,30410,30411,30412,30413,30414,30415,30416,30417,30418,30419,30420,30421,30422,30423,30424,30425,30426,30427,30428</string> <!-- The order of the genres - You Cannot add new ids! -->
+</strings>

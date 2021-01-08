@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.adrianaeurope" name="[B][I][COLOR mediumblue]Adriana Europe[/COLOR][/I][/B]" version="1.1.0" provider-name="KZBH">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>]Adriana Europe</summary>
+        <description>]Adriana Europe je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
+    </extension>
+</addon>

@@ -1,0 +1,11 @@
+1.2.2  Free version of pro list becomes free list
+--
+1.2.1 - non-free build, support for Kodi 15,16,17,18
+--
+1.2.0 - minor bug fixes
+--
+1.1.0 - Build for Kodi Balkan group
+	minor bug fixes
+--
+1.0.0 - initial release
+	build for my family and friends, it workd on only on Kodi 17

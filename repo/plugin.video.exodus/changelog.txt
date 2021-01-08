@@ -1,0 +1,5 @@
+Exodus Changelog:
+8.4.7
+- Scrapers and log_utils fix
+- Torrent updates
+- Scraper fixes

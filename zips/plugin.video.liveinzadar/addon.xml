@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.liveinzadar" name="Live in Zadar Build" version="1.0.1" provider-name="Zadar Build">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Live in ZadarBuild</summary>
+        <description>Live in ZadarBuild je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
+    </extension>
+</addon>

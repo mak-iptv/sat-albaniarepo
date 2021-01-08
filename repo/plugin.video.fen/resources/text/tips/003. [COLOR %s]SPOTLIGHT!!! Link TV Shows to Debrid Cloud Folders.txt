@@ -1,0 +1,12 @@
+[COLOR dodgerblue][B]Link TV Shows to Debrid Cloud Folders[/B][/COLOR]
+[I]If you utilize the Real-Debrid or All-Debrid Cloud scrapers in FEN, you can now assign specific TV Shows folders in your cloud. This is very handy if you have misnamed folders in your debrid clouds, which stops them from being detected by FEN's cloud scrapers. You can now navigate into your cloud files (Premium Services->[YOUR DEBRID ACCOUNT]->Cloud Storage), bring up the context menu on a FOLDER item, and link it to a specific show. FEN will then honor that link when scraping.
+
+NOTE: This feature is not needed for Premiumize.me, as they allow all files to be returned at once, hence not needing to inspect folder names.
+
+e.g. If you have added a torrent pack of Star Trek TNG S01-S07 COMPLETE to your Real-debrid cloud, currently FEN's RD Cloud scraper won't detect that as a match, because it will be looking for "Star Trek The Next Generation". To fix this, navigate to the Star Trek TNG folder in your RD Cloud, bring up the context menu, and select 'Link TV Show'. Then enter the name of the show you want to correctly link to the files (Star Trek The Next Generation), input the year of the show's debut (only if you know it. It's not necessary), and choose the correct show from any list of shows that appear. That RD Cloud Folder will now be linked to the correct show, and will show up in results for Star Trek The Next Generation, regardless of what the folder's original name is.
+
+You can re-assign a link to a show by repeating the above steps, or clear a link altogether by selecting "Clear TV Show Link" from the context menu. The link will stay in place for 2 months from the date of it's creation.
+
+With this feature, you will always be assured of scraping the link for the correct TV Show, no matter what the folder is called in the debrid Cloud.
+
+Try it out to see...[/I]

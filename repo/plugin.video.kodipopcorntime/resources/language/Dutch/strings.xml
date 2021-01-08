@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+	Translated by JKetelaar (http://jketelaar.nl/)
+-->
+<strings>
+  <!--
+   * The range 30000-30099 - 99
+   -->
+
+  <string id="30001">KODI Popcorn Time - Zoeken</string>
+  <string id="30002">Zoeken</string>
+  <string id="30003">Zoek op genre</string>
+  <string id="30004">Meest populair</string>
+  <string id="30005">Best beoordeeld</string>
+  <string id="30006">Recent toegevoegd</string>
+  <string id="30007">Inhoud ophalen</string>
+  <string id="30008">Snelheid: %s/s, Up %s/s</string>
+  <string id="30009">Volgende pagina</string>
+  <string id="30010">3D Film</string>
+  <string id="30011">Wilt u deze film in 3D afspelen?</string>
+  <string id="30012">Bevestigen</string>
+  <string id="30013">Weet u zeker dat u de Torrent instellingen wilt herstellen?</string>
+  <string id="30014">Locatie, download and upload-snelheid zullen niet worden hersteld.</string>
+  <string id="30015">Seeds: </string>
+  <string id="30016">Begint met downloaden</string>
+  <string id="30017">Klaar</string>
+  <string id="30018">Informatie ophalen</string>
+  <string id="30019">Ondertitels downloaden</string>
+  <string id="30020">Afspelen begint</string>
+  <string id="30021">Downloaden</string>
+  <string id="30022">Download is voltooid</string>
+  <string id="30023">Titel</string>
+  <string id="30024">Jaar</string>
+  <string id="30025">Sort by Title</string>
+  <string id="30026">Sort by Year</string>
+  <string id="30027">Last Updated</string>
+  <string id="30028">Searching</string>
+  <string id="30029">Favourites</string>
+
+  <string id="30030">Movies</string>
+  <string id="30031">Starting</string>
+
+  <string id="30033">Are you sure you want to delete the cache?</string>
+  <string id="30034">Title:</string>
+  <string id="30035">New title:</string>
+  <string id="30036">Waiting</string>
+  <string id="30037">Checking data</string>
+  <string id="30038">Trailer</string>
+  <string id="30039">Add to Popcorn Favourites</string>
+  <string id="30040">Remove from Popcorn Favourites</string>
+
+  <!--
+   * Settings
+   * The range 30100-30199 - 99
+   -->
+  <string id="30100">Prioriteit geven aan slechthorende ondertitels</string>
+  <string id="30101">Algemeen</string>
+  <string id="30102">Bestanden</string>
+  <string id="30103">Download locatie</string>
+  <string id="30104">Behoud bestanden nadat het afspelen/downloaden stopt</string>
+  <string id="30105">Ondertitels</string>
+  <string id="30106">Alleen 720p</string>
+  <string id="30107">Alleen 1080p</string>
+  <string id="30108">Internet</string>
+  <string id="30109">Afspelen van 3D video</string>
+  <string id="30110">Max downloadsnelheid (Kilobyte - 0: Oneindig)</string>
+  <string id="30111">Beveiliging</string>
+  <string id="30112">Overig</string>
+  <string id="30113">Onderhoud</string>
+  <string id="30114">Verwijder cache</string>
+  <string id="30115">Verwijder domeinen</string>
+  <string id="30116">YIFY (kommagescheiden host)</string>
+  <string id="30117">Kwaliteit voorkeur</string>
+  <string id="30118">1080p en lager</string>
+  <string id="30119">Ondertitel prioriteit #1</string>
+  <string id="30120">Ondertitel prioriteit #2</string>
+  <string id="30121">Ondertitel prioriteit #3</string>
+  <string id="30122">Max uploadsnelheid (Kilobyte - 0: Oneindig - Min 15 kB/s)</string>
+  <string id="30123">Gedwongen</string>
+  <string id="30124">Ingeschakeld</string>
+  <string id="30125">Uitgeschakeld</string>
+  <string id="30126">Nooit</string>
+  <string id="30127">Vraag mij</string>
+  <string id="30128">Altijd</string>
+  <string id="30129">Afspelen</string>
+  <string id="30130">Torrent</string>
+  <string id="30131">Instellingen</string>
+  <string id="30132">Poort</string>
+  <string id="30133">Peers</string>
+  <string id="30134">Eigenschappen</string>
+  <string id="30135">Log / debug</string>
+  <string id="30136">Behoud incomplete bestanden na het verlaten</string>
+  <string id="30137">Behoud complete bestanden na het verlaten</string>
+  <string id="30138">Extra</string>
+  <string id="30139">Poort voor inkomende connecties</string>
+  <string id="30140">Gebruik een willekeurig poort (49152-65535)</string>
+  <string id="30141">Activeer het TCP protocol</string>
+  <string id="30142">Activeer het uTP (uTorrent Transport Protocol)</string>
+  <string id="30143">Het limiet van het totaal aantal connecties</string>
+  <string id="30144">Herstel Torrent instellingen</string>
+  <string id="30145">Het aantal peers die proberen te verbinden na de eerste reactie</string>
+  <string id="30146">Het totale aantal connecties die per seconde probeert te verbinden</string>
+  <string id="30147">Aantal seconden voordat de verbinding mislukt</string>
+  <string id="30148">Poort</string>
+  <string id="30149">Aantal seconde tussen de mislukte verbindingen</string>
+  <string id="30150">Aantal seconde totdat een peer wordt verwijderd</string>
+  <string id="30151">Activeer DHT (Distributed Hash Table)</string>
+  <string id="30152">Activeer LSD (Local Service Discovery)</string>
+  <string id="30153">Activeer NATPMP (NAT Port Mapping Protocol)</string>
+  <string id="30154">Activeer UPnP (Universal Plug and Play)</string>
+  <string id="30155">Activeer de schraap aanvraag naar de tracker (Tracker Scrape)</string>
+  <string id="30156">Trackers (kommagescheiden URLs)</string>
+  <string id="30157">DHT routers (kommagescheiden host:poort koppels)</string>
+  <string id="30158">Debug</string>
+  <string id="30159">Toon debug notificaties</string>
+
+  <string id="30162">Movie</string>
+  <string id="30163">TV Shows</string>
+  <string id="30164">Prioritize Hearing Impaired Subtitles</string>
+  <string id="30165">Gather movie information from</string>
+
+
+  <string id="30168">Get subtitles from</string>
+  <string id="30169">Gather TV information from</string>
+  <string id="30170">None</string>
+  <string id="30171">The Movie Database</string>
+  <string id="30172">YIFY Subtitles</string>
+  <string id="30173">Only 480p</string>
+  <string id="30174">Video</string>
+  <!--
+   * Languages
+   * The range 30200-30299 - 99
+   -->
+  <string id="30200">Geen</string>
+  <string id="30201">Albanees</string>
+  <string id="30202">Arabisch</string>
+  <string id="30203">Bengalees</string>
+  <string id="30204">Braziliaans Portugees</string>
+  <string id="30205">Bulgaars</string>
+  <string id="30206">Chinees</string>
+  <string id="30207">Kroatisch</string>
+  <string id="30208">Tsjechisch</string>
+  <string id="30209">Deens</string>
+  <string id="30210">Nederlands</string>
+  <string id="30211">Engels</string>
+  <string id="30212">Farsi/Perzisch</string>
+  <string id="30213">Fins</string>
+  <string id="30214">Frans</string>
+  <string id="30215">Duits</string>
+  <string id="30216">Grieks</string>
+  <string id="30217">Hebreeuws</string>
+  <string id="30218">Hongaars</string>
+  <string id="30219">Indonesisch</string>
+  <string id="30220">Italiaans</string>
+  <string id="30221">Japans</string>
+  <string id="30222">Koreaans</string>
+  <string id="30223">Litouws</string>
+  <string id="30224">Macedonisch</string>
+  <string id="30225">Maleis</string>
+  <string id="30226">Noors</string>
+  <string id="30227">Pools</string>
+  <string id="30228">Portugees</string>
+  <string id="30229">Roemeens</string>
+  <string id="30230">Russisch</string>
+  <string id="30231">Servisch</string>
+  <string id="30232">Sloveens</string>
+  <string id="30233">Spaans</string>
+  <string id="30234">Zweeds</string>
+  <string id="30235">Thais</string>
+  <string id="30236">Turks</string>
+  <string id="30237">Urdu</string>
+  <string id="30238">Vietnamees</string>
+
+  <!--
+   * Notify
+   * The range 30300-30399 - 99
+   -->
+  <string id="30300">Kan poort niet vinden om te binden met torrent2http</string>
+  <string id="30301">Cache verwijderd</string>
+  <string id="30302">Uw OS wordt ondersteund</string>
+  <string id="30303">Kan torrent2http niet starten, zie het log bestand voor details</string>
+  <string id="30304">Er zijn geen gegevens ontvangen</string>
+  <string id="30305">Er zijn geen films ontvangen</string>
+  <string id="30306">Er is een fout opgetreden</string>
+  <string id="30307">Geen artikelen gevonden</string>
+  <string id="30308">Er is een onbekende fout opgetreden</string>
+  <string id="30309">Ervan uitgaande dat we XBMC gebruiken, kunnen de variabelen XBMC_HOME of KODI_HOME niet gevonden worden</string>
+  <string id="30310">Incorrecte download locatie</string>
+  <string id="30311">torrent2http is gecrasht.</string>
+  <string id="30312">Er is een fout ontstaan bij torrent2http</string>
+  <string id="30313">De uploadsnelheid is naar 15 kB/s veranderd</string>
+  <string id="30314">Torrent instellingen zijn hersteld</string>
+  <string id="30315">Geen film of tv-programma aanbieders gevonden</string>
+  <string id="30316">Torrent bestand bevat geen film</string>
+  <string id="30317">Een verbinding is niet beantwoord binnen de timeout</string>
+
+  <string id="30318">Playback is terminated due to timeout</string>
+  <string id="30319">Downloading to an unmounted network share is not supported. Please check your addon settings</string>
+  <string id="30320">Cannot find torrent2http</string>
+  <string id="30321">Cannot make torrent2http executable</string>
+  <string id="30322">Unable to create cache directory</string>
+  <string id="30323">There is not enough free space to play. Please free up some space or choose a different download location</string>
+  <string id="30324">Max Upload Rate must be above 15 Kilobytes per second. Please go to the addon settings and set a minimum speed of 15 kilobytes per second</string>
+  <string id="30325">You need more space to play %s and %s qualities or choose a lower quality</string>
+  <string id="30326">You need more space to play %s quality or choose a lower quality</string>
+  <string id="30327">No results found</string>
+  <string id="30328">Could not receive a media list as there was no domains that worked</string>
+  <string id="30329">There was an error with the response from the provider</string>
+
+  <!--
+   * categories
+   * The range 30350-30353 - 4
+  -->
+  <string id="30350">Movies</string>
+  <string id="30351">TV-Shows</string>
+  <string id="30352">Anime</string>
+  <string id="30353">30350,30351,30352</string>
+
+  <!--
+   * Genres
+   * The range 30400-30499 - 99
+   * See http://www.imdb.com/genre/
+   -->
+  <string id="30400">Action</string>
+  <string id="30401">Adventure</string>
+  <string id="30402">Animation</string>
+  <string id="30403">Comedy</string>
+  <string id="30404">Crime</string>
+  <string id="30405">Disaster</string>
+  <string id="30406">Documentary</string>
+  <string id="30407">Drama</string>
+  <string id="30408">Eastern</string>
+  <string id="30409">Family</string>
+  <string id="30410">Fan-Film</string>
+  <string id="30411">Fantasy</string>
+  <string id="30412">Film-Noir</string>
+  <string id="30413">History</string>
+  <string id="30414">Horror</string>
+  <string id="30415">Indie</string>
+  <string id="30416">Music</string>
+  <string id="30417">Mystery</string>
+  <string id="30418">Road</string>
+  <string id="30419">Romance</string>
+  <string id="30420">Sci-Fi</string>
+  <string id="30421">Short</string>
+  <string id="30422">Sport</string>
+  <string id="30423">Sporting-event</string>
+  <string id="30424">Suspence</string>
+  <string id="30425">Thriller</string>
+  <string id="30426">TV-Movie</string>
+  <string id="30427">War</string>
+  <string id="30428">Western</string>
+
+  <string id="30450">Action</string>
+  <string id="30451">Ecchi</string>
+  <string id="30452">Harem</string>
+  <string id="30453">Romance</string>
+  <string id="30454">School</string>
+  <string id="30455">Supernatural</string>
+  <string id="30456">Drama</string>
+  <string id="30457">Comedy</string>
+  <string id="30458">Mystery</string>
+  <string id="30459">Police</string>
+
+  <string id="30461">Sports</string>
+  <string id="30462">Mecha</string>
+  <string id="30463">Sci-Fi</string>
+  <string id="30464">Slice of Life</string>
+  <string id="30465">Fantasy</string>
+  <string id="30466">Adventure</string>
+  <string id="30467">Gore</string>
+  <string id="30468">Music</string>
+  <string id="30469">Psychological</string>
+  <string id="30470">Shoujo Ai</string>
+  <string id="30471">Yuri</string>
+  <string id="30472">Magic</string>
+  <string id="30473">Horror</string>
+  <string id="30474">Thriller</string>
+  <string id="30475">Gender Bender</string>
+  <string id="30476">Parody</string>
+  <string id="30477">Historical</string>
+  <string id="30478">Racing</string>
+  <string id="30479">Samurai</string>
+  <string id="30480">Super Power</string>
+  <string id="30481">Military</string>
+  <string id="30482">Dementia</string>
+  <string id="30483">Mahou Shounen</string>
+  <string id="30484">Game</string>
+  <string id="30485">Martial Arts</string>
+  <string id="30486">Vampire</string>
+  <string id="30487">Kids</string>
+  <string id="30488">Mahou Shoujo</string>
+  <string id="30489">Space</string>
+  <string id="30490">Shounen Ai</string>
+  <string id="30498">30450,30451,30452,30453,30454,30455,30456,30457,30458,30459,30461,30462,30463,30464,30465,30466,30467,30468,30469,30470,30471,30472,30473,30474,30475,30476,30477,30478,30479,30480,30481,30482,30483,30484,30485,30486,30487,30488,30489,30490</string>
+  <string id="30499">30400,30401,30402,30403,30404,30405,30406,30407,30408,30409,30410,30411,30412,30413,30414,30415,30416,30417,30418,30419,30420,30421,30422,30423,30424,30425,30426,30427,30428</string> <!-- The order of the genres - You Cannot add new ids! -->
+</strings>

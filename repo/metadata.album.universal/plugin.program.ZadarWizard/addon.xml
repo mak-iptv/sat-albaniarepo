@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.ZadarWizard" name="Zadar Wizard" version="1.0.3" provider-name="ZadarTeam">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Zadar Wizard</summary>
+    <description lang="en">Zadar Wizard Buldovi od autora Zadar Team. Novi wizard prilagoden za sve verzije.</description>
+	<disclaimer lang="en"></disclaimer>
+	<news>v1.0.3 (2020-11-01)</news>
+	<platform>all</platform>
+	<language>en</language>
+	<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
+	<email></email>
+	<website>http://zadarbuild.com.hr</website>
+  </extension>
+</addon>

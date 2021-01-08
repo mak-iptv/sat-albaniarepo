@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>				
+<addon id="plugin.video.Angelozadar" name="[B][COLOR green]ANGELO [COLOR red]ZADAR [/COLOR][/B]" version="1.0.0" provider-name="ANGEL M">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata"> 
+		<summary lang="en_GB">Jas ne objavuvam bilo kakvi nelegalni tv kanali ili listi za tv kanali, a nitu pak ne pretstavuvam bilo kakva mediumska kompanija, nitu pak imam pristap do nivnata sodrzina </summary>
+		<description lang="en_GB">Ne objavljujem bilo kakve nelegalne kanale ili liste ili ne predstavljam bilo koju medijsku kompaniju, niti sam imao pristup bilo kojem od njihovih sadržaja</description>
+		<news lang="en_GB"></news>		
+		<disclaimer lang="en_GB">I AM NOT SELLING ANY ILLEGAL CHANNELS OR CHANNEL LISTS OR NOT DO I REPRESENT ANY MEDIA COMPANY NOR HAVE ACCESS TO ANY OF THEIR CONTENTS </disclaimer>
+		<platform>all</platform>
+	 </extension>
+</addon>

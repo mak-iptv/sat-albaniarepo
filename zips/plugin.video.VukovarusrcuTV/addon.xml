@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.vukovarusrcuTV" name="[B][I][COLOR red]Vukovar u srcu TV[/COLOR][/I][/B]" version="1.1.2.1" provider-name="Vukovarac">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Vukovar u srcu TV</summary>
+        <description>Vukovar u srcu TV je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
+    </extension>
+</addon>

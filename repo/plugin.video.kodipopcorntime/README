@@ -1,0 +1,43 @@
+KODI Popcorn Time
+=================
+
+What it is
+----------
+With KODI Popcorn Time you can search for movies that you can see immediately in KODI.
+
+Download
+--------
+Check out https://github.com/markop159/KODI-Popcorn-Time/tree/master/Releases to download the ZIP file.
+
+Supported Platforms
+-------------------
+* XBMC/KODI 13.x and later
+* Windows x32 and x64
+* OSX x32 and x64
+* Linux x32, x64 and ARM
+* Android ARM 4.0+
+* Darwin x64
+* Raspberry Pi
+
+Discussions/Proposals
+---------------------
+Proposals may be posted under https://github.com/markop159/KODI-Popcorn-Time/issues.
+
+Issues
+------
+Please, file an issue :) - https://github.com/markop159/KODI-Popcorn-Time/issues
+
+Credits
+-------
+* Fixed KODI Popcorn Time add-on from https://github.com/Diblo/KODI-Popcorn-Time
+* KODI Popcorn Time is a rewrite of http://github.com/steeve/xbmctorrent.
+* http://github.com/steeve/libtorrent-go
+* http://github.com/steeve/torrent2http
+
+Changelog
+---------
+Check out first README on https://github.com/markop159/KODI-Popcorn-Time.
+
+Need more information
+---------------------
+Check out our WIKI page https://github.com/markop159/KODI-Popcorn-Time/wiki!

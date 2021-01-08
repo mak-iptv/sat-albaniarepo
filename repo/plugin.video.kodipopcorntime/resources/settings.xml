@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="30112">
+        <setting label="30108" type="lsep" />
+        <setting id="download_kbps" type="number" label="30110" default="0" />
+        <setting id="upload_kbps" type="number" label="30122" default="0" />
+    </category>
+    <category label="30174">
+        <setting label="30105" type="lsep" />
+        <setting id="movies_subtitle_language0" type="enum" label="30119" default="0" lvalues="30170|30201|30202|30203|30204|30205|30206|30207|30208|30209|30210|30211|30212|30213|30214|30215|30216|30217|30218|30219|30220|30221|30222|30223|30224|30225|30226|30227|30228|30229|30230|30231|30232|30233|30234|30235|30236|30237|30238" enable="gt(14,0)" />
+        <setting id="movies_subtitle_language1" type="enum" label="30120" default="0" lvalues="30170|30201|30202|30203|30204|30205|30206|30207|30208|30209|30210|30211|30212|30213|30214|30215|30216|30217|30218|30219|30220|30221|30222|30223|30224|30225|30226|30227|30228|30229|30230|30231|30232|30233|30234|30235|30236|30237|30238" enable="gt(13,0) + gt(-1,0)" />
+        <setting id="movies_subtitle_language2" type="enum" label="30121" default="0" lvalues="30170|30201|30202|30203|30204|30205|30206|30207|30208|30209|30210|30211|30212|30213|30214|30215|30216|30217|30218|30219|30220|30221|30222|30223|30224|30225|30226|30227|30228|30229|30230|30231|30232|30233|30234|30235|30236|30237|30238" enable="gt(12,0) + gt(-2,0) + gt(-1,0)" />
+        <setting id="movies_hearing_impaired" type="bool" label="30164" default="false" enable="gt(11,0) + gt(-3,0)" />
+
+        <setting label="30117" type="lsep" />
+        <setting id="movies_quality" type="enum" label="30107" lvalues="30106|30118" default="1" />
+        <setting id="movies_play3d" type="enum" label="30109" lvalues="30126|30127|30128" default="0" enable="gt(-1,0)" />
+
+        <setting label="30102" type="lsep" />
+        <setting id="movies_download_path" type="folder" label="30103" source="auto" option="writeable" />
+        <setting id="movies_keep_complete" type="bool" label="30136" default="false" enable="eq(1,false) + eq(2,false)" />
+        <setting id="movies_keep_incomplete" type="bool" label="30137" default="false" enable="eq(-1,false) + eq(1,false)" />
+        <setting id="movies_keep_files" type="bool" label="30104" default="false" enable="eq(-1,false) + eq(-2,false)" />
+
+        <setting label="30132" type="lsep" />
+        <setting id="movies_metadata_provider" type="enum" label="30165" default="1" lvalues="30170|30171" />
+        <setting id="movies_subtitle_provider" type="enum" label="30168" default="1" lvalues="30170|30172" />
+
+        <setting id="movies_preferred_subtitles_old" type="text" value="" visible="false" />
+        <setting id="movies_prioritere_impaired_old" type="text" value="" visible="false" />
+        <setting id="movies_subtitles_provider_old"  type="text" value="" visible="false" />
+        <setting id="movies_subtitle_lastchanged"    type="text" value="" visible="false" />
+
+        <setting id="movies_metadata_provider_old"  type="text" value=""   visible="false" />
+        <setting id="movies_syslang"                type="text" value="en" visible="false" />
+        <setting id="movies_metadata_lastchanged"   type="text" value=""   visible="false" />
+    </category>
+    <category label="30130">
+        <setting label="30135" type="lsep" />
+        <setting id="debug" type="bool" label="30158" default="false" />
+
+        <setting label="30115" type="lsep" />
+        <setting id="movies_proxies" type="text" label="30116" />
+
+        <setting label="30113" type="lsep" />
+        <setting type="action" label="30114" action="RunPlugin(plugin://plugin.video.kodipopcorntime?cmd=clearCache)" />
+        <setting type="action" label="30101" action="RunPlugin(plugin://plugin.video.kodipopcorntime?cmd=clearMediaCache)" />
+
+        <setting label="30159" type="lsep" />
+        <setting id="listen_port" type="number" label="30139" default="6881" enable="eq(11,true) + eq(1,false)" />
+        <setting id="use_random_port" type="bool" label="30140" default="true" enable="eq(10,true)"  />
+        <setting id="encryption" type="enum" label="30111" lvalues="30123|30124|30125" default="1" />
+        <setting id="connections_limit" type="number" label="30143" default="200" />
+
+        <setting label="30133" type="lsep" />
+        <setting id="torrent_connect_boost" type="number" label="30145" default="50" />
+        <setting id="connection_speed" type="number" label="30146" default="50" />
+        <setting id="peer_connect_timeout" type="number" label="30147" default="15" />
+        <setting id="min_reconnect_time" type="number" label="30149" default="60" />
+        <setting id="max_failcount" type="number" label="30150" default="3" />
+
+        <setting label="30134" type="lsep" />
+        <setting id="enable_tcp" type="bool" label="30141" default="true" />
+        <setting id="enable_dht" type="bool" label="30151" default="true" />
+        <setting id="enable_lsd" type="bool" label="30152" default="true" />
+        <setting id="enable_utp" type="bool" label="30142" default="true" />
+        <setting id="enable_scrape" type="bool" label="30155" default="false" />
+        <setting id="enable_upnp" type="bool" label="30154" default="true" />
+        <setting id="enable_natpmp" type="bool" label="30153" default="true" />
+
+        <setting label="30138" type="lsep" />
+        <setting id="trackers" type="text" label="30156" default="" />
+        <setting id="dht_routers" type="text" label="30157" default="" />
+
+        <setting label="30131" type="lsep" />
+        <setting type="action" label="30144" action="RunPlugin(plugin://plugin.video.kodipopcorntime?cmd=resetTorrentSettings)" />
+
+        <setting id="last_update_id"  type="text" value="" visible="false" />
+    </category>
+</settings>

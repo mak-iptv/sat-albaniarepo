@@ -1,0 +1,979 @@
+[B]Please utilize Fen Tips (Tools->Tips for Fen Use) to catch up on any important new features. New features will be highlighted with a [COLOR crimson]NEW!!![/COLOR] label.[/B]
+
+[COLOR dodgerblue][B]Version 1.6.11[/B][/COLOR]
+- Remade Premiumize Cloud scraper to use Premiumize's 'list all' API feature.
+- Fixed external search when special character in episode name.
+- Fixed correct showing of uncached torrents.
+- Fixed Mixed Episode lists not displaying label correctly in some skin views.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.6.10[/B][/COLOR]
+- Added Transferring of Uncached Torrents to debrid clouds for Real-Debrid, Premiumize.me and All-Debrid. Select an Uncached Torrent to initiate transfer. File will play upon transfer completion. You can manually cancel a transfer if the torrent transfer rate is too slow. A lot of code inspiration from ResolveURL.
+- Added option: Settings->Next Episodes->Appearance->'Cache To Disc'. Defaults to OFF. If set to ON, Kodi will display it's cached version of the Next Episodes list after playback ends, meaning you must back out of and back into the list to update it. Set this to ON if your Next Episodes list takes a long time to load, and you don't need the list updated before watching another show.
+- Added 'Refresh' context menu item for Next Episodes list to manually refresh the list if 'Cache To Disc' setting is on.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.6.09[/B][/COLOR]
+- Various fixes.
+
+[COLOR dodgerblue][B]Version 1.6.08[/B][/COLOR]
+[I]OK. Let's try this again..... [B]special thanks to Tinuz97 for lots of help testing.[/B]
+- Debrid resolving (RD/PM/AD) now handled by Fen. Only Real-Debrid, Premiumize.me and AllDebrid are supported.
+- NOTE: You no longer need your debrid accounts active in ResolveURL to use them within Fen. You do, however, now need the debrid accounts authorized IN FEN for the accounts to work.
+- NOTE: If you want another debrid service supported, please open an issue on Fen's github and I will add it if possiible.
+- NOTE: Currently there is no support for downloading an uncached torrent to your cloud for later playback. This will come soon. At the moment, Fen will skip uncached torrents.
+- ResolveURL is still a dependency so free links can be handled, and to get around Openscrapers needing a valid ResolveURL debrid account to use the debrid/torrent scrapers.[/I]
+- Fix torrent size filter error causing torrents not to show if size filter enabled.
+- Fixed results not showing on some devices.
+
+
+[COLOR dodgerblue][B]Version 1.6.07[/B][/COLOR]
+- Added all fixes from 1.6.05 apart from resolving debrid links within Fen.
+- You will need to have debrid accounts authed in ResolveURL just like before the 1.6.05 update to receive debrid results.
+- Hopefully Fen resolving debrid results will come soon, after identifying the problem some devices are having.
+
+[COLOR dodgerblue][B]Version 1.6.06[/B][/COLOR]
+- Reverted code to version 1.6.04 until issues with last update can be resolved.
+
+[COLOR dodgerblue][B]Version 1.6.05[/B][/COLOR]
+[B]NOTE: Clear Metadata Cache before using this update.[/B]
+- Debrid resolving (RD/PM/AD) now handled by Fen. Only Real-Debrid, Premiumize.me and AllDebrid are supported.
+- NOTE: You no longer need your debrid accounts active in ResolveURL to use them within Fen. You do, however, now need the debrid accounts authorized IN FEN for the accounts to work.
+- NOTE: If you want another debrid service supported, please open an issue on Fen's github and I will add it if possiible.
+- NOTE: Currently there is no support for downloading an uncached torrent to your cloud for later playback. This will come soon. At the moment, Fen will skip uncached torrents.
+- ResolveURL is still a dependency so free links can be handled, and to get around Openscrapers needing a valid ResolveURL debrid account to use the debrid/torrent scrapers.
+- Fixed Furk Premium list not showing when username or password missing. You must have EITHER api_key OR (username AND password) for the Furk list to show in the Premium folder.
+- Fixed search when accents in title and fixed handling of accents in metadata from Tikimeta. PLEASE CLEAR METADATA FOR THESE CHANGES TO TAKE EFFECT.
+- Fixed Autoplay Next Episode trying to play unaired episodes.
+- Changes to Next Episodes refresh behaviour after playback.
+- Changes to Subscriptions behavior to hopefully fix some issues.
+- Added 'Persistent' to Settings->Downloads->Notifications. Download Information will stay on screen as a background progress dialog when set.
+- Other fixes/changes.
+
+[COLOR dodgerblue][B]Version 1.6.04[/B][/COLOR]
+- Added 'Companies' and Include/Exclude 'Keywords' to Fen Discover.
+- Changes to code so Fen Add/Remove displays for Fen widget items.
+- Fixed 'size' not being reported for hoster results when available.
+- Other code fixes/changes.
+
+[COLOR dodgerblue][B]Version 1.6.03[/B][/COLOR]
+[B]IMPORTANT: PLEASE RESTART KODI AFTER THIS UPDATE BEFORE USING FEN![/B]
+[B]NOTE: Because of changes in this update, cached meta and cached source results will be lost.[/B]
+- External Scrapers now honor "Show Filenames when Available" for scraped results.
+- Fixed error notification when authorizing Trakt. Thanks host505!
+- Moved to ext_providers4.db due to code changes. If wanted, ext_providers3.db can be deleted in addon_data (not necessary).
+- [B][TIKIMETA][/B]: Accents should now display for movie/tv show titles.
+- [B][TIKIMETA][/B]: Moved to metacache4.db due to code changes. If wanted, metacache3.db can be deleted in addon_data (not necessary).
+- Changes to meta fetching code.
+- Changes to external sources code.
+- Changes to Subscriptions code.
+- Moved check of correct settings format to a Service on every startup.
+
+[COLOR dodgerblue][B]Version 1.6.002[/B][/COLOR]
+- Added "Download History" to Real Debrid Premium Services folder.
+- Added "Transfer History" to Premiumize Premium Services folder.
+- Fixed log viewer for Kodi 17 and under.
+- RD Cloud scraper now also scrapes your RD download history.
+
+[COLOR dodgerblue][B]Version 1.6.001 (+ 103a/b)[/B][/COLOR]
+- Fixes to Widget scrape results not showing.
+- Increase maximum "Choose Max List Items" to 100 (setting found in Settings->General->Navigation).
+- Changes to hopefully speed up add-on.
+- Changes to Tikimeta to speed up metadata fetching and improve fetching of tvdb data for tv shows.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.103[/B][/COLOR]
+- New setting "Add Resolved Torrents to Cloud" found in Real-Debrid/Premiumize/All-Debrid account settings at Settings->Accounts. DISABLED by default. If enabled, Fen will transfer the torrent file into your RD/PM/AD Debrid Cloud after it has been successfully resolved.
+- Hide accounts from Premium menu that aren't authorized in Fen.
+- Other changes.
+
+[COLOR dodgerblue][B]Version 1.5.102[/B][/COLOR]
+- Rewrote settings backup/restore. You can now set a local path or any LAN (network) path.
+- Fixed "Rescrape and Select Source" in Options Menu.
+- Removed context menu layout option  for Options Menu.
+- Added "Very Simple Directory" to Settings->Results->Display->Results Display. This setting is to provide the quickest display of results possible. Only the basic label and a poster are loaded. There is no context menu for the results when this setting is chosen i.e. no "Download File" option will be available, and the label will be single line only.
+- Added fetching of fresh watched statuses when marking movie/episode watched during playback. Fen will now fetch this information whilst the movie/episode finishes playing, meaning possibly much quicker refresh times for lists like Next Episode after playback ends.
+- Changes to layout of settings.
+
+[COLOR dodgerblue][B]Version 1.5.101[/B][/COLOR]
+- Changed input method for min/max torrent sizes so decimals can be used. e.g. Minimum Episodes: "0.753" will make minimum episodes size approx. 753MB.
+- Rewrote set views. This might once and for all fix the set view problems without having to use an artificial delay.
+- Removed 'Delay for Setting View Type' from settings as a result. 
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.100[/B][/COLOR]
+- Added "Flatten TV Show Seasons" to Settings->General->Navgation.
+- Fix metadata compatability issues with OpenMeta and TMDbHelper.
+
+[COLOR dodgerblue][B]Version 1.5.99[/B][/COLOR]
+- Added seperate movie/episode settings for min/max torrent sizes in Settings->Results->Torrents Sorting & Filtering.
+- Added 'Include 3D Results' filter in Settings->Results->Sorting and Filtering. Defaults to ON.
+- Other code fixes/changes.
+
+[COLOR dodgerblue][B]Version 1.5.98[/B][/COLOR]
+- Added "Sort Torrents by Size" in Settings->Results->Torrents Sorting & Filtering. Fen will attempt to sort torrents by size highest to lowest within the "Quality" results.
+- Added "Filter Torrents by Size" in Settings->Results->Torrents Sorting & Filtering. Fen will attempt to filter out torrents using the "Maximum" and "Minimum" settings.
+NOTE: Please clear External Scrapers cache in Tools->Clear Databases and Clean Settings File to ensure torrent size sorting and filtering works.
+NOTE: Size information from torrent results are not guaranteed to be accurate. Also, sometimes size information will not be available.
+
+[COLOR dodgerblue][B]Version 1.5.97[/B][/COLOR]
+- Added Backup and Restore of Fen User Data (settings and database files). Set the backup folder in Settings->General->Settings Backup/Restore. Access backup/restore from same location in settings, or from Tools menu within Fen.
+- Added 'Use Minimal Notifications' to Settings->Playback->Playback->Autoplay First Relevant Result. Defaults to On. This suppresses notifications during autoplay search and uses background dialog for scraper progress.
+- Added 'Ignore Articles When Sorting Lists' to Settings->General->Navigation. Defaults to On. This makes Fen ignore 'the', 'an', 'a' etc when sorting user lists.
+- Combined Pagination and Page Limit settings for regular lists and Trakt lists. Combined setting at Settings->General->Navigation. You will need to re-set these settings.
+- Fix for Cloud Storage Download of files occasionally failing.
+- Fix excess logging when navigating through Premium Cloud Storage folders.
+- Fix single file music playback through Furk.
+
+[COLOR dodgerblue][B]Version 1.5.96[/B][/COLOR]
+- Added 'External Scrapers Manager' to Tools. Manage failing scrapers, and enable/disable Openscraper scrapers from within Fen.
+- 'External Scrapers Manager' also added to 'Options' menu accessed from context menu within Movie/TV Show listings.
+- Disabled Fen cache auto clean to hopefully fix results failing to display after a period of a few hours of inactivity.
+
+[COLOR dodgerblue][B]Version 1.5.95[/B][/COLOR]
+- Fix Clean Settings for Kodi versions under v18.
+- Fix sort results by quality. Oops.
+- Some re-organizing of Tools menus.
+- Other code fixes.
+
+[COLOR dodgerblue][B]Version 1.5.94[/B][/COLOR]
+- Added 'Remove Failing Scrapers' to Settings->External Scrapers->General. With this setting ON, FEN will disable any non-performing external scrapers when a search is initialized. You can tell FEN how many scrape results a scraper must have stored before it is considered for disabling. Defualt is 25 scrapes. You can also see the current status of enabled external scrapers and choose to manually disable scrapers of your choice by navigating to Tools->External Scrapers->Disable Failing External Scrapers. Defaults to OFF.
+- Also, you can clear the External Scrapers Success/Fail Stats by selecting Tools->External Scrapers->Reset Failing External Scraper Stats.
+- Fixed playback metadata issues.
+- Fixed double instance of 'HEVC' in scrape results info.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.93[/B][/COLOR]
+- Added 'Link TV Show' to Cloud folders. If you utilize the RD, PM, or AD Cloud scrapers in FEN, then you can now assign specific TV Shows to your cloud folders. This is very handy if you have misnamed folders in your debrid clouds, which stops them from being detected by FEN's cloud scrapers. You can now navigate into your cloud files (Premium Services->[YOUR DEBRID ACCOUNT]->Cloud Storage), bring up the context menu on a FOLDER item, and link it to a specific show. FEN will then honor that link when scraping. [B]See FEN Tips for more info[/B].
+- Added "Options Menu Style" to Settings->General->Navigation. Choose 'Dialog' or 'Context Menu'. Context Menu is new and will, you guessed it, display the Options menu in the style of a context menu.
+- Small changes to Subscriptions code.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.92[/B][/COLOR]
+- Fix for partial torrent downloads not working in RD Cloud browser.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.91[/B][/COLOR]
+- Excluded episodes search from furk moderation level. Furk results moderation is now only for movies.
+- Added setting "Internal Scrapers Order" in Settings->Results->Sorting & Filtering. Set the order Fen's internal scrapers will be displayed. Note: 'FILES' in the filter means all physical files found i.e. from 'local', 'downloads' and all 5 'folder' scrapers.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.90[/B][/COLOR]
+- Added option in Settings->General->Appearance->Choose Settings Layout to change layout of the settings file. You can choose 'Basic', which removes the multiple submenu system FEN currently uses, or 'Advanced', which keeps the multiple submenus. The default will be 'Basic'. Read more through Fen Tips in the Tools menu.
+- Changes to Folder Scrapers settings. Some settings now homogenized between Folder Scrapers.
+- More changes to try and fix Subscriptions code.
+
+[COLOR dodgerblue][B]Version 1.5.89[/B][/COLOR]
+- Replaced 'Related' searches for Movies/TV Shows with 'Recommended'. Recommended gives better results, and also gives better results than 'Similar'.
+- Added 'Discover Recommendations' to FEN's Discover feature. You can now make lists for either Similar or Recommendations based on the Movie/TV Show you are searching.
+- Fixed some Trakt caching issues.
+- Changes to Subscriptions code.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.88[/B][/COLOR]
+- FINALLY!! Fixed failed to play dialog popping up at end of playing a fen library item.
+- Fen now marks media watched (default is 90% finished) whilst still playing, instead of when media is stopped. This should help widgets refresh with the correct info when playback stops.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.87[/B][/COLOR]
+- Added 'Shortcuts' Folders. When in Root, Movies or TV Shows menus, bring up context menu and select 'Edit'. Select 'Add Shortcut Folder' to add a folder to your current menu that you can now fill with other menu items from Fen (including Trakt lists). See Tools->Fen Tips->Shortcut Folders for more info.
+- You can now choose whether or not to paginate all Personal Trakt lists (e.g. Collections, Liked Lists) or other personal lists (e.g. Subscriptions, Kodi Library). Settings for Trakt lists found in Settings->Trakt->Trakt Navigation. Settings for other personal lists found in Settings->General->Navigation. This is possible due to TMDb removing the rate limit on their API. Even so, if lists are large then they will load A LOT slower than if they were paginated.
+- Include Openscrapers Module in settings cleanup.
+- Temporarily implement some logging for subtitle downloads to try and catch a problem reported. It shouldn't spam the log.
+- Changed Trakt API timeout threshold to 25 seconds.
+- Assign 'icon' to kodi listitems for movies and tv shows.
+
+[COLOR dodgerblue][B]Version 1.5.86[/B][/COLOR]
+- Added ability to set a daily timer for Subscription updates (i.e. daily at 07:00). Found in Settings->Subscriptions->Update Subscriptions Method. Set this to "Daily Time" and then set your "Daily Update Time". NOTE: You should restart Kodi after any changes to Subscription settings.
+- Fix Premiumize downloading from search results.
+
+[COLOR dodgerblue][B]Version 1.5.85[/B][/COLOR]
+- Merge 'Open Extended Info' settings for Movies and TV Shows into one setting.
+- Added "Set Added Time to Release Date" for Subscriptions. Activate this if you want episodes added from Fen Subscriptions to reflect their original airdate as Kodi's "added to  library" date. Setting found in Settings->Subscriptions->Updates->Set Added Time to Release Date. Defaults to "Off".
+- Other code changes.
+Plus..  [COLOR dodgerblue][B]context.fencontextmenu 1.0.04[/B][/COLOR]
+- Add Context Menu item to manually refresh Fen widgets.
+
+[COLOR dodgerblue][B]Version 1.5.84a[/B][/COLOR]
+- Quick fix for extra info not showing for scrape results.
+
+[COLOR dodgerblue][B]Version 1.5.84[/B][/COLOR]
+- Switched to Open Scrapers for external results. Tikiscrapers will be removed from repo soon.
+- Real-debrid, Premiumize and All-debrid cached torrents are now resolved through Fen. Other links are still sent to ResolveURL. (For now, you must still authorize your debrid accounts in ResolveURL to see torrent results.)
+- Search options simplified and remade People search with new options.
+- Other changes.
+
+[COLOR dodgerblue][B]Version 1.5.83[/B][/COLOR]
+- Added All Debrid Torrent Cache check. Be sure to authorize All Debrid in both Fen and ResolveURL to utilize torrent cache checking. Please test and report any bugs..
+- Added All Debrid Cloud Scraper. Please test and report any bugs..
+- Added All Debrid to 'Premium Services' menu. You can check your account info and browse/playback from your All Debrid Cloud. Please test and report any bugs..
+- Tweaked folder scrapers and debrid cloud scrapers.
+- Fixed 'Sources Folders' browser after source folder name changes.
+- Separated Internal and External Providers in Settings.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.82[/B][/COLOR]
+- Rename of 'Source' Scrapers 1 through 5 to 'Folder' 1 through 5.
+- UNFORTUNATELY, THIS MEANS YOU WILL HAVE TO SET UP ANY FOLDER SCRAPERS AGAIN. APOLOGIES, BUT THE NAMING OF THE 'SOURCE' SCRAPERS WAS REALLY BUGGING ME.
+- Fix 'Recent Episodes' Trakt Widget not updating daily when used as a widget.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.81a[/B][/COLOR]
+- Quick fix for Furk scraper.
+
+[COLOR dodgerblue][B]Version 1.5.81[/B][/COLOR]
+- Streamlined folder scrapers to use a single module.
+- Improved scraping of folders.
+- Auto enable subtitles if Local subtitles found for media when played through Fen and Subtitles set to On or Auto in Fen .
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.80[/B][/COLOR]
+- Fixed 'Years' for movies.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.79[/B][/COLOR]
+- Added 'Read Reviews' to Movie items context menu. Choose from dialog which review you wish to read, when reviews are available.
+- Fixed pre-scrape dialog not showing progress percentage.
+- Other changes/fixes.
+
+[COLOR dodgerblue][B]Version 1.5.78[/B][/COLOR]
+- Changes to pre-scrape code.
+- Changes to after playback code to hopefully solve occasional widgets not updating after playback end.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.77[/B][/COLOR]
+- Added "Widgets" to "My Trakt Lists". These are a few lists based on your Trakt Collection that can be used as widgets for home pages etc. They, of course, can also be browsed within Fen and exported to other Fen menus if desired.
+- Re-ordered settings slightly. There is a new "Trakt" settings tab that includes "Trakt Navigation", "Trakt Widgets" and "Trakt Cache" (Trakt Navigation and Trakt Cache have been moved from the "General" tab. Trakt Widgets includes a new setting).
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.76b & c[/B][/COLOR]
+- Fixed Subscriptions and slow usage problems.
+- Fixed Trakt Watchlist not showing.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.5.76[/B][/COLOR]
+- Fixed autoplay.
+- Fixed Fen Subscriptions not updating to schedule settings.
+- Added setting for user TVDb API Key. Clear TVDb token when changing API Key.
+
+[COLOR dodgerblue][B]Version 1.5.75a[/B][/COLOR]
+- Fixed download file name recognition when using languages other than English.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.75[/B][/COLOR]
+- Added 'Sources Folders' menu item to root menu. It allows you to browse the folders you have set up as Source1, Source2 etc Scrapers. Import it into your root menu by bringing up the context menu on any root menu item, then 'Edit Menu'->'Check if Root Menu has New Menu Items'. Select 'Yes' when Fen asks you do you wish to add 'Sources Scrapers', then select it's position in the root list. If facing problems, you can reset your root list to have it appear.
+- Added 'Source4' and 'Source5' to Scrapers. These are the last of this type of scraper I will be adding. 
+- Added option to open Extended Info when selecting a Movie or TV Show. Each has their own setting in Settings->General->Navigation.
+- 'Source Search' (Movies) or 'Browse...' (TV Shows) will appear in context menu if you have open extended info set.
+- Added Apple TV+ and Acorn TV to Networks.
+
+[COLOR dodgerblue][B]Version 1.5.74[/B][/COLOR]
+EXPERIMENTAL..... Please report any issues in Github.
+- Added 'Source1', 'Source2' and 'Source3' to Scrapers. Choose a Movie and TV Show directory for any of these scrapers, and Fen will scan those directories for results (including .strm files from other add-ons) [B]PLEASE SEE FEN TIPS IN TOOLS FOR INFO ON THESE SCRAPERS.[/B]
+- Since there are now 5 Internal Scrapers that can be set to search for content before initiating a full scraper search, I remade the pre-scrape function to return all results in a dialog, where you can then choose a result to play before starting a full scrape of all scrapers. Internal scrapers that can be checked for results before a full scrape are Local, Downloads, Source1, Source2 and Source3. If autoplay is selected, any result from these 5 scrapers will initiate immediate playback before doing a full search will all scrapers.
+- Fixed issues with displaying uncached/unchecked torrents.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.73[/B][/COLOR]
+- Added setting to include uncached torrents in results when checking for cached torrents. Settings->Results->Sorting & Filtering->Display Uncached torrents (RD/PM).
+- Clean settings will now clean both Tiki modules settings also.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.72[/B][/COLOR]
+- 'Clean Settings File' added to Tools. Use this periodically to clear any obselete settings from Fen's settings.xml file. (As a natural part of development of Fen, sometimes a setting will be removed as it's no longer needed. These now obselete settings stay in your userdata settings.xml file. The smaller the settings.xml file, the quicker Fen can run).
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.71[/B][/COLOR]
+- Code changes to Subscriptions.
+- Added settings to set previous/future days for Trakt Calendar. Found in Settings->General->Trakt Navigation and Cache.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.70[/B][/COLOR]
+- Fixed settings.xml incompatibility with Kodi 17.
+- Some other changes.
+
+[COLOR dodgerblue][B]Version 1.5.69[/B][/COLOR]
+- Added 'SUBTITLES' to front of heading for subtitle choice dialog.
+- Improved getting filename from playback url for subtitle choice dialog.
+- Updated Fen Tips to quote correct new settings paths.
+
+[COLOR dodgerblue][B]Version 1.5.68[/B][/COLOR]
+- Changed subtitle download setting to "Auto, Select, Off". New option (Select) allows you to choose the subtitle you wish to use. Video will pause and a pop-up will appear with relevant subtitles to choose from.
+- Added Disney+ to TV Show Networks.
+
+[COLOR dodgerblue][B]Version 1.5.67[/B][/COLOR]
+- Added 'Rescrape & Select Source' to 'Options' context menu. Use this to rescrape a title (results caches will be cleared), or when Autoplay is ON but you want to select a link instead.
+- Added 'Secondary Language' to Subtitles settings for when no subtitles are found for Primary Language.
+- Added 'Show Biography' to context menu for 'Popular People' lists.
+- Some other fixes/tweaks.
+
+[COLOR dodgerblue][B]Version 1.5.66[/B][/COLOR]
+[B][I]CLEAR METADATA CACHE IF HAVING ISSUES WITH THIS UPDATE.[/I][/B]
+- Added Language selection to tikimeta. Access through Fen by: Settings-->External(Meta). The language selection is only for metadata, menus/dialogs within the add-on will still be English. Hopefully this can change eventually but it is a BIG job. Metadata will be automatically cleared when changing languages. First time navigation into seasons WILL take slightly longer when language is not English, as extra calls need to be made to the TVDb API.
+- Added option to color highlight results based on Scraper or Quality(new).
+- Complete refactoring of settings.xml. Settings are now grouped together and accessed by changing the top setting for each tab (most say "CHOOSE SETTINGS..."). Select the group of settings you want to change, and the relevant settings will become visible. I understand this will take a little while to get used to, but the settings from each tab were getting too long, and I hate scrolling down through settings and having relevant settings not visible.
+- Added 'Biography' option for People Search. You can now search for Movies/TV Shows, Images or Biography of Actor/Actress.
+- Added quick Kodi Log viewer to Tools.
+
+[COLOR dodgerblue][B]Version 1.5.65[/B][/COLOR]
+- Fix for incorrect torrent hashes.
+- Adjusted Internal Scrapers display in settings.
+
+[COLOR dodgerblue][B]Version 1.5.64[/B][/COLOR]
+- Fix for OpenMeta compatibility.
+- See Tikimeta log for various other fixes for this release.
+
+[COLOR dodgerblue][B]Version 1.5.63[/B][/COLOR]
+- Fixed Kodi 17 compatibility issues.
+
+[COLOR dodgerblue][B]Version 1.5.62[/B][/COLOR]
+- Some code cleanup/fixing from recent changes.
+- Added Quality filter for Internal Sources Pre-emptive Scrape Termination. Choose 4K, 1080p, 720p, SD or All (All refers to total amount of results).
+- [B]Attempting to fix results label bug some users are having (1).[/B]
+
+[COLOR dodgerblue][B]Version 1.5.61[/B][/COLOR]
+- Added option when doing a person search to search for their movies/tvshows or pictures.
+- Added 'Browse Pictures' context menu item to 'Popular People' results. You can select this and browse the images for each actor/actress available from tmdb.
+- Filtered out 'private' lists from Trakt Search User List results as they are not browsable. Also lists with 0 items.
+- Some more slight optimizations to hopefully speed up media lists.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.60[/B][/COLOR]
+- Many code changes in preparation for Kodi 19 Python 3 implementation. (Fen can now be used in a LIMITED way with Kodi 19 Python3. Internal Scrapers work as intended, but External Scrapers are currently broken due to a dependence on ResolveURL, which is not Python3 compatible.) Some functionality is broken with Kodi 19 Python3.
+- Changes to Trakt code to hopefully speed up Next Episodes and other Trakt related functions.
+- Code changes to fetching watched statuses that hopefully speed up all Movie/TV Show lists.
+- Code changes to Next Episode Manager to speed up display and functionality.
+- Added notification to show number of Duplicate URLS removed when scraping with External Scrapers.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.59[/B][/COLOR]
+- Reworked results label handling. Split 'Show Filename/Extra Info' setting. 'Show Filename' setting only works for Fen Internal Scrapers.
+- Other code fixes.
+
+[COLOR dodgerblue][B]Version 1.5.58[/B][/COLOR]
+- Various small misc. fixes.
+
+[COLOR dodgerblue][B]Version 1.5.57[/B][/COLOR]
+- Added 'Discover Similar' to FEN Discover Movies and TV Shows. Enter the name of a Movie/Show, then enter a year (or leave blank if you don't know), then choose the movie to find similar titles from the list. Browse or Export the list as with other Discover filters. More info in Discover Help.
+- Added 'Export Similar List' or 'Export Related List' to context menu when you are browsing results from a similar/related search from within regular Movie/Show menus. You can then export this as a menu item.
+- Re-coded trakt related functions.
+
+[COLOR dodgerblue][B]Version 1.5.56a & b[/B][/COLOR]
+- Added 'studio' and 'votes' to episode playback info (any info missing from your skin's playback info, let me know).
+- Fixed Discover TV Shows.
+- Suppressed 'Next Page' list item for Discover lists when no next page.
+
+[COLOR dodgerblue][B]Version 1.5.56[/B][/COLOR]
+- Download feature now uses original filename so long as filename is related to the media being downloaded, otherwise will use default FEN filename.
+- Added 'busy' indicator when requesting a download.
+- Fixed episode info not showing correctly on playback with some skins.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.55[/B][/COLOR]
+- Added checks for script.trakt and it's settings before marking watched in Fen. Should fix double mark watched with Trakt.
+- Added 'Auto Start FEN when Kodi Starts' Setting to General->Navigation. This will make FEN start automatically when Kodi is launched. Defaults to Off.
+- Added 'Set Trakt Calendar Focus to Today's Date' Setting to General->Trakt Navigation and Cache. This will auto focus Kodi to the first list item with '[TODAY]' in the title, if available. Defaults to On.
+- Changes to paginate code.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.54[/B][/COLOR]
+- Animated Poster now utilized for results page and during playback if using animated posters set.
+- Removed 'Music' as a main menu item. All music functionality is in the Furk section of 'Premium'. Reload Root list for changes (not necessary).
+- Fixed music file downloading.
+- Improved subtitle downloading code.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.53[/B][/COLOR]
+- Added Animated Posters for Movies. Turn on in Tikimeta settings (KyraDB tab). Off by default. Only enable this if you have a powerful system running Kodi, and have a decent amount of RAM and hard drive space, as Kodi is sluggish when using animated posters, and the posters (GIFS) must be downloaded to the local machine. This means hundreds of megabytes of GIFS. It also means slow initial page loads for movies, as FEN must wait until needed GIFS are downloaded before loading the page. USE AT OWN RISK ON LOW POWERED DEVICES!!
+- Clear Meta Cache to start using Animated Posters, or if having trouble after update...
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.52[/B][/COLOR]
+- Remade sorting and filtering for results. Some settings moved to accommodate this. External results should now honor sort settings.
+- Added threading option to Movies, TV Shows and Episodes. Use current setting ("Use Threading for Main Menu Items"). As before, turn this Off if you are having troubles with menus not loading/items missing.
+- Fixed occasional bug stopping results showing.
+- Added dialog reminder to set Fen Subscription folders as a Kodi source when setting Trakt list for Subscriptions.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.51[/B][/COLOR]
+- Added Trakt TV Show Calendar to My Trakt Lists.
+- Added result numbering directly to labels so it will show numbering during resolving dialog.
+- Other code improvements.
+
+
+[COLOR dodgerblue][B]Version 1.5.50a[/B][/COLOR]
+- Increased Trakt default limit for liked lists.
+- Fixed label formats (colors etc) not showing correctly for episode items (removed 'Attempt to Make Skin Honor Next Ep Labels' setting as a result).
+
+[COLOR dodgerblue][B]Version 1.5.50[/B][/COLOR]
+- Re-wrote Fen Subscriptions (Library Integration). Unfortunately, you will have to remake your subscriptions and delete the contents of your Subscription folders.
+- You can now choose a Trakt List (Watchlist, Collection, Personal Lists or Liked Lists) in Settings->Subscriptions for both Movies and TV Shows, and Fen will keep your Kodi library synced with these Trakt lists with each Fen Subscription Update. To utilize a refreshed and accurate Kodi library after updates, please enable both the "Update Kodi Library after Subscription Update" and "Clean Kodi Library If Items Removed". This will clear your removed Trakt list items and add the new Trakt list items to the Kodi library.
+- Fixed Download for media with special characters, and changed code so media folder is only created after confirming to do download.
+- Re-Added cacheToDisc=False to Next Episodes list (will once again refresh after watching an episode).
+- Added a new Fen Tips for Subscriptions.
+- A fair few other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.49[/B][/COLOR]
+- Added 'CLEAR ALL CACHE' to Tools to clear Meta, Lists, Navigated Pages, Providers (Internal/External), Trakt, RD and PM Clouds. Use sparingly.
+- Added 'Clear Progress' context menu item for in progress Movies and Episodes.
+- Added Trakt Watchlist cache clear after marking any item watched if using Trakt for indicators.
+- Changed setting for HEVC in Autoplay to 'Include, Exclude, Prefer'. Defaults to Include. If your device does not support HEVC(x265), set to 'Exclude' so Autoplay doesn't select a HEVC file to play. If you set to 'Prefer', Autoplay will sort all HEVC files to the top (meaning it will pick a 720p HEVC file to play before a 1080p non-HEVC file if there aren't any 1080p HEVC files).
+- Partial re-write of sources.py.
+- Added active progress dialog for Torrent Cache Check.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.48b[/B][/COLOR]
+- Fixed issue for Internal Scrapers displaying/playing results.
+
+[COLOR dodgerblue][B]Version 1.5.48a[/B][/COLOR]
+- Fixed issue with displaying/playing results. Sorry all....
+
+[COLOR dodgerblue][B]Version 1.5.47[/B][/COLOR]
+- Added second line color choice when using multiline for results. Choose 'No Color' to use the same color as line 1.
+- Added 'Refresh Trakt Cache on Each Kodi Startup' to Settings->General->Trakt navigation and Cache. This will clear Fen's Trakt Cache when it is first accessed after a Kodi restart. Fen will then begin to refill the cache with data as needed.
+- Re-organized settings for Search. Now split over 3 tabs (Results Display, Internal Scrapers and External Scraper).
+- Other small changes to settings.
+- Changes to 'Discover' code.
+- Discover Movie & TV Show searches each now have their own history. Unfortunately, current Discover history will be lost.
+- Improved caching of Furk and Easynews results.
+- Added option to clear internal providers (Furk, Easynews) results cache in Tools->Clear List and Data Info.
+- Added 'Exclude Adult Results' to Easynews scraper settings.
+- Simplified pagination code.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.46[/B][/COLOR]
+- Added [B]Automatic Subtitle Search[/B]. Enable and set your language in Settings->Playback->Subtitles. Fen uses the fairly new opensubtitles API, which only allows a search of one language.
+- Added threading option for main menu items to load them faster (Root, Movies, TV Shows, Music). Off by default. Keep off if turning this on causes problems with menus loading/menu items missing.
+- Stopped 'Jump To...' appearing on widget items.
+- Stopped 'Resume List Browsing' notification showing when skin loads widgets.
+- Slightly reorganized some of the Premium Account Info dialogs.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.45[/B][/COLOR]
+- Added 'Resume List Browsing from Last Viewed Page' feature. Found in Settings->General->Navigation.
+- Read about 'Resume List Browsing' in Fen tips (Tools->Tips for Fen Use), but briefly if turned on, Fen will remember your last viewed page number for any Movie/TV Show list you enter, and will re-load that page when you go back to that list again.
+- 'Resume List Browsing' data can be cleared per list or all together. Read Fen Tips for more info.
+
+[COLOR dodgerblue][B]Version 1.5.44[/B][/COLOR]
+- Fixed discover history issues.
+- Added 'Region' filter to Discover Movies (needs testing as may not work as intended).
+
+[COLOR dodgerblue][B]Version 1.5.43[/B][/COLOR]
+- Added ability to Export a Discover List from Discover History.
+- Added 'Exclude Genres' to Discover to filter out Genres NOT wanted.
+- Added 'Change Filter/Clear Filter' dialog when selecting a filter that already has a value.
+- Simplified Discover code.
+- Some more background work on searching for torrent packs with Tikiscrapers.
+
+[COLOR dodgerblue][B]Version 1.5.42[/B][/COLOR]
+- Added 'Discover' Feature. Make your own lists by setting filters like 'Genre', 'Start Year', 'Rating', 'Country' etc. Browse the newly created list, and/or export it to a Fen Main Menu (Root, Movie, TV Show) if you like, and give it a name. Help found in 'Discover: Help' or go to Tools->Tips for Fen Use->Fen Discover to read up on this new feature.
+- From the root menu's context menu, select Edit Menu->Check if 'Root' Menu has New Menu Items to add 'Discover' to your root menu.
+- 'Discover' will keep your last 7 days of browsed lists. You can remove a list from the history or clear the history all together.
+
+[COLOR dodgerblue][B]Version 1.5.41[/B][/COLOR]
+- Unfortunately had to remove browsing into Furk Packs from media results. It was indirectly related to vidoes replaying after being stopped. Furk items from a media search will now auto-resolve the correct episode/movie file.
+- Added Context Menu item in results to browse Furk Packs as a compromise.
+- Fixed videos replaying when stopped.
+- Removed Set View options for Furk, Furk Packs and Easynews. Replaced with 'Premium Files' view setting to cover these as well as RD-Cloud and PM-Cloud files.
+- Simplified Download Directories. Now just Movies, TV Shows or Premium. If you download something from a Furk, Easynews, RD-Cloud or PM-Cloud listing, the download will go in the 'Premium' folder. If you download something from a media search result, it will go in the appropriate 'Movie' or 'TV Show' folder with proper folder tree structure i.e. TV Show Name/Season/episode_file or Movie(Year)/movie_file.
+- Began work on searching for torrent packs with Tikiscrapers. This is a lot of work and will take some time.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.5.40[/B][/COLOR]
+- Changes to base code due to changes to tikimeta.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.39[/B][/COLOR]
+- Made Cloud Scrapers for Real Debrid and Premiumize. Turn on in Settings->Search or from the 'Options' context menu item when browsing media. You must have your debrid service authorized in Fen to utilize these scrapers. Obviously, these scrapers are dependent on the naming of the folders/files within your cloud. In PM you can rename the folders/files, but not with RD. It's hard to test these scrapers so please report any issues on github.
+- Added caching to RD and PM cloud results (cache duration is 2 hours). Clear either cache from their respective 'Premium Services' menu, or from Tools->Clear List and Data Info.
+- Some other code improvements.
+
+[COLOR dodgerblue][B]Version 1.5.38[/B][/COLOR]
+- Fix Real Debrid account authorization.
+
+[COLOR dodgerblue][B]Version 1.5.37[/B][/COLOR]
+- Added new Section in the Root menu "Premium Services". Bring up Context Menu on any item in the root menu and select Edit Menu-->Check if 'Root' Menu has New Menu Items and add 'Premium Services'. Or reset the Root menu to default.
+- 'Premium Services' contains the Furk and Easynews menus (you can remove the old ones from root menu), plus new menus for Real Debrid and Premiumize where you can browse and play back your cached files and check your account status. You must have your real-debrid/premiumize service authorized in Fen to use these menus. Internal scrapers for these caches will be available soon (hopefully), so they will appear in results when searching for sources.
+- Fixed adding Uncached Torrent to Furk.
+- Some other code fixes.
+
+[COLOR dodgerblue][B]Version 1.5.36[/B][/COLOR]
+- Changes to pagination and Trakt lists which should cause a speed up of displaying Trakt lists.
+- Changes to TMDb API rate limit handling in Tikimeta.
+
+[COLOR dodgerblue][B]Version 1.5.35[/B][/COLOR]
+- Hopefully a fix for Trakt usernames with special characters not showing lists.
+- Added settings to revoke Real-Debrid and Premiumize authorization.
+- Added pagination to In Progress Movies and TV Shows.
+- Other code changes.
+
+[COLOR dodgerblue][B]Version 1.5.34[/B][/COLOR]
+- Fixed watched marks not appearing for widget items.
+- Fixed window properties not clearing when clearing meta cache.
+
+[COLOR dodgerblue][B]Version 1.5.33[/B][/COLOR]
+- Added TVDb information to TV Show meta to improve season/episode info.
+- Fixed some encode/decode errors. Still a work in progress.
+- Added setting to delay setting the viewtype when browsing. [B]Low powered[/B] devices should use a [B]higher setting[/B]. [B]Higher[/B] powered devices can use a [B]lower setting[/B]. Found in Settings->General->Navigation. Range is 100-2500 milliseconds in increments of 100 milliseconds. This fixes views not setting correctly. Adding a delay works with Kodi 18.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.5.30[/B][/COLOR]
+- Added item limits per page for all Trakt lists. Default is 40, range is 10-40.
+
+[COLOR dodgerblue][B]Version 1.5.29[/B][/COLOR]
+- Fixed non-RD/PM debrid providers not showing torrent results.
+- Added setting to show torrent results from non-RD/PM debrid providers when 'cached only' is enabled for torrents.
+- NOTE: Fen can only query Real-Debrid or Premiumize to check for cached torrents. If you have another debrid provider as well as one of these two, then you can now choose whether to show or not show those torrent results for that other provider (they are not checked as to whether they are cached).
+- Code changes.
+
+[COLOR dodgerblue][B]Version 1.5.28[/B][/COLOR]
+- Added DiscArt for Movies for supported skins (through Tikimeta). To see discart, clear the meta cache by navigating in Fen to Tools->Clear List and Data Info->Clear Meta Cache or in the settings of Tikimeta.
+- Added cast information to playback info for supported skins.
+- Small code changes.
+
+[COLOR dodgerblue][B]Version 1.5.27[/B][/COLOR]
+- Added multiline support for search results. Enable in Settings->Search->Display Results as Multi Line.
+- Code changes.
+- Added new Fen Tips for cached torrents.
+- One TIP here: Significantly improve scrape times, and be assured of working links, by only enabling Torrent Scrapers in the Tikimeta settings, and showing only cached torrents in Fen's settings. Normal scrape times will be well under 20 seconds, and will show only cached, ready to play links. You must have atleast one of Real-Debrid or Premiumize authorized in Fen's settings and ResolveURL's settings to utilize cached torrents.
+
+[COLOR dodgerblue][B]Version 1.5.26a[/B][/COLOR]
+- Fix for when debrid service/s enabled in Fen but not enabled in ResolveURL. You must have your debrid service/s enabled in both Fen and ResolveURL to see cached torrents from that debrid service.
+
+[COLOR dodgerblue][B]Version 1.5.26[/B][/COLOR]
+- Re-wrote debrid cache checking code.
+- Implemented single hash result caching for cached torrent results.
+- Changed some external sources code for under the hood.
+
+[COLOR dodgerblue][B]Version 1.5.25[/B][/COLOR]
+- More fixes for cached torrents. Now correct debrid service for cached torrent should show in results if using both real-debrid and premiumize, and 'CACHED' will appear next to debrid provider.
+- Fixed Real-Debrid cache check not returning results when token needs refreshing.
+- Fixed Easynews and Furk returning irrelevant results when "!" in search query.
+
+[COLOR dodgerblue][B]Version 1.5.24[/B][/COLOR]
+- Adjusted torrent settings in search.
+- Code changes for cached torrent search.
+- Other small changes.
+
+[COLOR dodgerblue][B]Version 1.5.23[/B][/COLOR]
+- Added Real Debrid and Premiumize account authorization in Settings->Accounts.
+- Added "Show Cached Torrents Only" (EXPERIMENTAL). You need to authorize your Real Debrid and/or Premiumize accounts in Fen to use this feature. Enable "Show Cached Torrents Only" from Settings->Search->External Scraper->Show Cached Torrents Only. This is experimental, so turn it off if you are having troubles with results showing. Some code used from Seren and ResolveURL. Thankyou to both.
+- Added "Show Only Cached Torrents" to Options context menu item for quick enabling/disabling.
+- Abbreviated source label for results ('EXTERNAL'-->'EXT' etc).
+- Other code work.
+
+[COLOR dodgerblue][B]Version 1.5.21[/B][/COLOR]
+- Added extra art to season and episode containers.
+- Added 'Recently Added Movies' and 'Recently Added Episodes' to Kodi Library menu.
+- Added more 'Tips for Fen Use'.
+
+[COLOR dodgerblue][B]Version 1.5.20[/B][/COLOR]
+- Added 'No Color' option when choosing highlight colors in some settings.
+- Added different dialogs for scraping progress display depending on Furk/Easynews being active in addon.
+- Added settings to choose color highlights for 'Internal' and 'External' scraping progress display.
+- Incorporated multi years into search query for Easynews.
+- Added context menu item to 'Jump To...' listing to switch action between Page/Alphabet from within lists.
+- Remade some of the 'Jump To...' code.
+- Remade some of the 'Edit Menu' code.
+
+[COLOR dodgerblue][B]Version 1.5.19[/B][/COLOR]
+- Repository now has an address: https://Tikipeter.github.io
+- Added Easynews root menu item. When in the root menu bring up context menu->Edit Menu and then select 'Check if Root Menu has New Menu Items' to add the Easynews menu item.
+- Coded Easynews Account Info dialog (some code from Gaia). Found in new Easynews menu.
+- Added more 'Tips for Fen Use'.
+
+[COLOR dodgerblue][B]Version 1.5.18[/B][/COLOR]
+- Improvements/fixes to Furk and Easynews scrapers. Now returns many more results.
+- Fixed Searching Trakt User Lists.
+- Moved trakt cache info to it's own database.
+- You can now enter either Furk login and password OR Furk API key in settings.
+- Reworked Trakt functions.
+- Added more 'Tips for Fen Use'.
+- Other small fixes.
+
+[COLOR dodgerblue][B]Version 1.5.17[/B][/COLOR]
+- Fix 'Jump To...' for letter 'T'.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.5.16[/B][/COLOR]
+- Added Trakt Collections, Watchlists, and Personal/Liked Lists to Trakt Cache. The contents of these lists and the lists themselves are now cached for the duration of your Trakt Cache setting, or if the list contents are changed in Fen. If the list is changed on the Trakt website, or through another add-on, then clear the Trakt Cache for immediate update of info in Fen.
+- Added 'Tips for Fen Use' to the Tools section. Go there to read up on tips for certain features of Fen that you may not know about, or don't understand. I'll add more tips as I get time.
+- Added one time view of log when add-on updates. Can be disabled in settings.
+
+[COLOR dodgerblue][B]Version 1.5.15[/B][/COLOR]
+- Moved Auto Resume setting to playback tab. Changed setting to "Never, Always, Autoplay Only".
+- Other small settings changes.
+- settings.py cleanup.
+- Still trying to fix playback from Fen library items.
+
+[COLOR dodgerblue][B]Version 1.5.14[/B][/COLOR]
+- Fixed occasional show not marking as watched through Trakt.
+
+[COLOR dodgerblue][B]Version 1.5.13[/B][/COLOR]
+- Some Trakt caching optimizations.
+- New Setting "Trakt Cache Duration". Found under the General tab of add-on settings. Options are 1 Hour, 1 Day, 1 Week. Defaults to "1 Hour". Set to a high duration (1 Week) if you use only Fen for media viewing and rarely make changes on the Trakt website. Set to low duration (1 Hour) if you often use other add-ons for media viewing or often make changes on the Trakt website.
+- New Tool "Clear Trakt Cache". Found in Tools==>Clear List and Data Info==>Clear Trakt Cache. Also found in "Next Episode Manager". This will clear the Trakt cache if needed.
+
+[COLOR dodgerblue][B]Version 1.5.12[/B][/COLOR]
+- Fixed some playback issues.
+- Remade and re-added Autoplay Next Episode. Setting appears in the 'Playback' tab once Autoplay has been enabled.
+- Removed setting for Kodi cacheToDisc. Defaults to True always now. Caused more issues than it solved.
+
+[COLOR dodgerblue][B]Version 1.5.11[/B][/COLOR]
+- Improved caching of TV Shows. Clear cache by navigating 'Tools->Clear List and Data Info->Clear Meta Cache' if you are having problems with new episodes not showing.
+- Fixed some sqlite unicode errors.
+- Changed Download Notifications format. Less cluttered now.
+
+[COLOR dodgerblue][B]Version 1.5.10[/B][/COLOR]
+- Improved accuracy of Downloads Folder Scraper.
+
+[COLOR dodgerblue][B]Version 1.5.09[/B][/COLOR]
+- Episode duration format fixed. (Clear Meta Cache to start seeing correctly formatted durations)
+- Added setting for Next Episodes to attempt to force skins to honor full Next Episode labels. Only enable if your skin does not show the Next Ep labels correctly.
+- Added [B]"Downloads Folder Scraper"[/B]. Enable in "Search" settings.
+- [B]INFO FOR Downloads Folder Scraper...:[/B]
+This scraper will search your Fen Movie Downloads folder or Fen TV Show Downloads folder for content, so if you download something through Fen then it will be scraped as a result if the scraper is enabled.
+
+[COLOR dodgerblue][B]Version 1.5.08[/B][/COLOR]
+- Fixed adding menu items to a different menu.
+- Changed scraper progress dialog to purely timer based.
+- Added setting 'Stop Search Early if Most Sources Finished' to External Providers.
+
+[COLOR dodgerblue][B]Version 1.5.07[/B][/COLOR]
+- Code changes to navigator to use faster window properties when possible and limit database reads.
+- Fix to music player.
+- Added version numbers to Changelog menu items.
+- Removed add-on icon refresh tool (no longer needed).
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.5.06[/B][/COLOR]
+- Hopefully fixed Next Episodes random failure behaviour.
+- Fixed not returning to settings after choosing Next Episode highlight colors.
+- Auto Resume setting re-added.
+- Removed Autoplay Next Episode feature. I will remake it when I can, but ATM it is not working correctly.
+- Removed different settings for add-on playback and library playback. Didn't really make sense to have both.
+- Removed migration code.
+- More changes to try and fix videos replaying when finished. Geez.
+- Settings clean up.
+
+[COLOR dodgerblue][B]Version 1.5.05[/B][/COLOR]
+- [B]TRAKT:[/B] Fixed (finally) problem with hidden shows and hiding/unhiding shows with Next Episode Manager.
+- Still investigating other Trakt issues...
+
+[COLOR dodgerblue][B]Version 1.5.04[/B][/COLOR]
+- Removed migration notification code. (I'll keep the Migration Tool in Tools for a while longer.)
+- More changes to try and fix re-playing of videos.
+- Removed Resume Notification settings. (No Auto Resume anymore, just context menu choice.)
+
+[COLOR dodgerblue][B]Version 1.5.03[/B][/COLOR]
+- Changes to source results display code and playback code in an attempt to solve re-playing issue.
+- Changes to items in 'Options' context menu item.
+- Other small code changes.
+
+[COLOR dodgerblue][B]Version 1.5.02[/B][/COLOR]
+- Fix background fanart in some menus not showing.
+- Add Extended Info context menu for 'Popular People'.
+- NOTE: There is a bug wherein a video will automatically replay once it is stopped. I am looking for the cause of this, but have had no luck so far. I will continue investigating.
+
+[COLOR dodgerblue][B]Version 1.5.01[/B][/COLOR]
+- New Icon for add-on after well justified complaints about the original ghastly looking icon.
+- Added 'Refresh Add-on Icon' to Tools Menu. If I change the icon for the add-on, you can press this to load the new icon. If the new icon doesn't show after, then restart Kodi.
+- Some changes to Migration Tool. I will keep the tool around a little longer due to problems with Trakt API on day of performing the rename.
+- There will be at least one more update to Furk It (1.2.36), to fix a couple of problems so a stable version is on the github. All future development will be through Fen.
+- Old module dependencies will be removed from github when stable Furk It is updated.
+
+[COLOR dodgerblue][B]Version 1.5.00[/B][/COLOR]
+- Name change to Fen.
+
+[COLOR dodgerblue][B]Version 1.2.35[/B][/COLOR]
+- Changed dependencies and code for renamed modules:
+* script.furkit.artwork ---> script.tiki.artwork (Tiki Artwork)
+* script.module.furkitmeta ---> script.module.tikimeta (Tiki Meta)
+* script.module.furkitscrapers ---> script.module.tikiscrapers (Tiki Scrapers)
+
+[COLOR dodgerblue][B]Version 1.2.33[/B][/COLOR]
+- Made Easynews API module.
+- Changed Easynews scraper to use Easynews API module.
+- Added Easynews to Search menu so you can search Easynews directly.
+- Added Easynews download folder for direct searches.
+- Added Easynews icon to script.furkit.artwork
+- Added set view option for Easynews direct results.
+
+[COLOR dodgerblue][B]Version 1.2.32[/B][/COLOR]
+- More changes to external sources filtering code.
+
+[COLOR dodgerblue][B]Version 1.2.31[/B][/COLOR]
+- Changes to external sources filtering and label making to hopefully make displaying results faster.
+- NOTE: If you are using Furkit Scrapers, and results will not show after scraping, disable 'WSUNBLOCK' in furkitscrapers' settings. The problem with this scraper is hopefully fixed with this Furk It update, though.
+
+[COLOR dodgerblue][B]Version 1.2.30[/B][/COLOR]
+- Small changes to Furk resolving.
+
+[COLOR dodgerblue][B]Version 1.2.29[/B][/COLOR]
+- The progress dialog for when only internal scrapers are selected now shows the names of remaining scrapers. 
+- Changes to search results url duplicate implementation.
+- Added setting to set the heading of the dialog box when scraping. Can be set to the scraper module or name of the media being searched for. Setting found in Search-->Search Dialog Heading.
+- Fixed download notifications not honoring settings.
+- Added changelog access for furkitmeta and furkitscrapers in main addon (done last update).
+- Code cleanup.
+
+[COLOR dodgerblue][B]Version 1.2.28[/B][/COLOR]
+- More changes to Playback and Sources that will hopefully fix problems with playing library items created by Furk It.
+- Added 'Remove Duplicate Links' to External Scraper settings. Will slow down showing of search results (shouldn't be too bad on faster devices). [Code is by doko-desuka].
+- Some cleaning of code.
+- Stopped adding latest changes to addon.xml changelog (news).
+
+
+[COLOR dodgerblue][B]Version 1.2.27[/B][/COLOR]
+- Fix Trakt Watchlist items not showing in Next Episodes when set to do so.
+- Did some code changes to playback and sources in preparation for more changes. Playback and Downloading may be affected. I have tested the changes but there are always problems I don't see myself. Roll back to 1.2.26 if facing issues.
+- Other code cleanup.
+
+[COLOR dodgerblue][B]Version 1.2.26[/B][/COLOR]
+- 'Dialog' results display now shows simple results pop-up, instead of extra info like poster etc to speed up the showing of results when 'Dialog' chosen.
+- New setting in General/Navigation to enable/disable Kodi's built-in 'cacheToDisc' function. (Enabled by default)
+- [B]###INFO FOR cacheToDisc...:###[/B]
+    - cacheToDisc is a Kodi setting that makes Kodi cache the directory you are viewing. If you then hit 'next page', and load the next page of entries, then Kodi has the previous page cached so if you hit 'back' it won't need to remake the list items again. It makes backing out of a list of pages quicker.
+    - A bug in Kodi 18 means that the cacheToDisc of previous pages don't keep their watched status, meaning any watched media will all of a sudden not display the watched indicator when navigating back to them. Disabling 'cacheToDisc' will fix that, with the trade-off that backing out of pages of media will be slower.
+    - This setting does not affect Furk It's caching of information, it just stops Kodi caching pages as you browse. 
+
+[COLOR dodgerblue][B]Version 1.2.25[/B][/COLOR]
+- Added option for using season titles when available. Now defaults to classic 'Season X' naming.
+- Re-added threading to main menu lists.
+- Quick clean up of settings.
+- Fixed setting episode runtime listitem property.
+
+[COLOR dodgerblue][B]Version 1.2.24[/B][/COLOR]
+- Added total seasons, total episodes, total watched, total unwatched to TV Show listings.
+- Added total watched, total unwatched to Seasons listings.
+- Fixed meta showing for movie results and playback.
+- Quick clean up of settings.
+- Cleanup of settings.py
+
+[COLOR dodgerblue][B]Version 1.2.23[/B][/COLOR]
+- Hopefully fixed errors to do with getting TMDb numbers from Trakt items.
+
+[COLOR dodgerblue][B]Version 1.2.21[/B][/COLOR]
+- Changed 'PREM' to 'PM' for results display.
+- Fixed wrong plot showing when playing episodes. Don't know when that started to happen?
+- Fixed Auto Next Ep playback and In Progress Eps after meta module change.
+- Adjusted code to accept new fanart.tv art from furkitmeta, and added item in Settings to open furkitmeta settings.
+- Reverted some threading for lists and change in setView as it seemed to make things worse.
+
+[COLOR dodgerblue][B]Version 1.2.20[/B][/COLOR]
+- Moved external provider database to Furkitscrapers Module.
+- Moved 'Ororo' account settings to Furkitscrapers Module.
+- Removed 'Gostream' account settings (no working scraper).
+- Changed 'PREMIUMIZE.ME' result display to 'PREM'
+
+
+[COLOR dodgerblue][B]Version 1.2.19[/B][/COLOR]
+- Moved Metadata handling to seperate module.
+
+[COLOR dodgerblue][B]Version 1.2.18[/B][/COLOR]
+- Small fixes.
+
+[COLOR dodgerblue][B]Version 1.2.17[/B][/COLOR]
+- Fixed Error when no view mode set.
+- Tweaked setView.
+
+[COLOR dodgerblue][B]Version 1.2.16[/B][/COLOR]
+- Added furk max filesize for results (excludes PACK results). Furk and Easynews now have max filesize settings.
+- Actor/Actress search results now sorted Alphabetically.
+- Added "Jump To..." for all Trakt Lists (Personal, Liked, Watchlist, Collection), Actor Search results, Kodi Library, Favourites, Subscriptions, Watched. Replaces 'Go To Page...'.
+- [B]###INFO FOR JUMP TO...:###[/B]
+    - 'Jump to List Navigation' setting added to General tab. Choice is 'Page' or 'Alphabet'.
+    - 'Page Numbers' allows you to Jump To a specific page in the list.
+    - 'Letters' allow you to jump to the first instance of a listing beginning with that letter.
+    - 'Jump To...' only appears if more than 1 page present in list. It does not appear for regular browsing lists like Trending/Popular etc.
+
+[COLOR dodgerblue][B]Version 1.2.15[/B][/COLOR]
+- Added some more threading to possibly speed up Kodi list generation.
+- Small fixes.
+- Changelog from skin menu will now have info for latest updates only.
+
+[COLOR dodgerblue][B]Version 1.2.14[/B][/COLOR]
+- Added some more fallback release details to Furk results.
+- Changed 'Local' to 'Int' (Internal) for Furk/Easynews/Library results progress dialog.
+- Added changelog into 'news' section of addon.xml so changelog can now be read through the regular Kodi process.
+- [B]EXTERNAL SCRAPERS[/B] now has it's own changelog.
+
+[COLOR dodgerblue][B]Version 1.2.13[/B][/COLOR]
+- Fixed (hopefully) final couple of 'Unknown Video Info Key' errors in log from playback.
+- Added [B]bold[/B] to remaining Furk It context menu items throughout add-on.
+- Tweaked Context Menu.
+- Moved Edit options for menus to seperate dialog. Context menu now only shows 'Edit Menu'.
+- Removed 'Menu Favourites' feature and menu.
+
+[COLOR dodgerblue][B]Version 1.2.12[/B][/COLOR]
+- Added 'Exit Movie List' and 'Exit TV Show List' to context menu. Useful if you are 10 pages deep into a list, and don't want to back out of all pages. This will take you back to the Movies or TV Shows root menu.
+- Added [B]bold[/B] to all Furk It context menu items when browsing movies and TV Shows/Seasons/Episodes to better distinguish them from the largely useless regular Kodi context menu items that can no longer be removed by add-ons.
+- Changed Extended Info context menu item call to always use tmdb_id to assure accurate results.
+
+[COLOR dodgerblue][B]Version 1.2.11[/B][/COLOR]
+- Fixed final couple of 'Unknown Video Info Key' errors in log from browsing into season.
+
+[COLOR dodgerblue][B]Version 1.2.09[/B][/COLOR]
+- Sources Progress Dialog changed to display current scraper module.
+
+[COLOR dodgerblue][B]Version 1.2.08[/B][/COLOR]
+- Added progress dialog when only local scrapers selected.
+
+[COLOR dodgerblue][B]Version 1.2.07[/B][/COLOR]
+- Converted Movie and TV Show Language menus to use tmdb api instead of imdb search.
+- Unfortunately no fix for hiding/unhiding Trakt Shows. :(
+
+[COLOR dodgerblue][B]Version 1.2.06[/B][/COLOR]
+- Fixed bug in Next Episode Manager.
+
+[COLOR dodgerblue][B]Version 1.2.05[/B][/COLOR]
+- Changed search dialog to display 'quality' totals for local scrapers.
+
+[COLOR dodgerblue][B]Version 1.2.04[/B][/COLOR]
+- Cleanup external sources code.
+
+[COLOR dodgerblue][B]Version 1.2.03[/B][/COLOR]
+- Changed source search dialog. I can revert if not popular; not sure if I like it myself. But it does simplify the code a bit so hopefully is faster.
+
+[COLOR dodgerblue][B]Version 1.2.02[/B][/COLOR]
+- Some fixes.
+
+[COLOR dodgerblue][B]Version 1.2.01[/B][/COLOR]
+- Tried to fix play from library. Hopefully working.
+- [B]FURKIT CONTEXTMENU[/B]
+    [B]Version 1.0.01[/B]
+    - Fixed marking Watched/Unwatched from Furk It widgets.
+    - Added 'Browse Series' when brought up from a Furk It widgets episode object.
+
+[COLOR dodgerblue][B]Version 1.2.00[/B][/COLOR]
+- Fixed marking episode watched from playback.
+- Coded big rework of Download feature.
+[B]###INFO FOR DOWNLOADS:###[/B]
+    - You can now download Easynews and External source results.
+    - For FURK results, you can now download the video file straight from the results page (no need to click through to the t_file page to download the single file.)
+    - If FURK result is a PACK, both 'Download Archive' and 'Download File' is available. Choosing Archive will download the entire archive file into the Furk Downloads folder. Selecting File will download the appropriate single file from that PACK. i.e. If you scraped The Walking Dead S01E01, and you select 'Download File' for a PACK result, it will only download the S01E01 file from within the PACK into the 'TV Downloads' folder. Selecting 'Download Archive' will download the entire archive into the 'Furk Downloads' folder.
+    - Other fixes.
+
+[COLOR dodgerblue][B]Version 1.1.99[/B][/COLOR]
+- Added automatic activation of new scrapers, or all scrapers on first run.
+- Added Trailer to Context Menu for Movies/TV Shows when available.
+- Added ability to Choose trailer to play for Movies/TV Shows.
+[B]###INFO FOR TRAILERS:###[/B]
+    - Turn on 'Show Choice for all Trailer Videos' in General settings of add-on to enable choosing which Trailer you wish to watch. Trailers are supplied by TMdB, from Youtube videos. I can't get Trailers from an alternate source, for now at least.
+    - To get this new feature to work, you must clear the Metadata for movies/shows. Go to Tools-->Clear List and Data Info-->Clear Meta Cache to reset the metadata for all movies/shows.
+- Fixed no name showing when adding an uncached Furk file.
+
+[COLOR dodgerblue][B]Version 1.1.98[/B][/COLOR]
+- Improved handling of sources dialog. Should put less strain on CPU.
+- Added fallbacks for getting tmdb id from trakt items.
+- Converted Trakt Info sending and receiving to imdb id for TV Shows and tmdb id for movies.
+- Fixed Sort ordering of Results (External was showing before Easynews).
+
+[COLOR dodgerblue][B]Version 1.1.97[/B][/COLOR]
+- Added scrapers from Tempest.
+- Furk It fixes.
+
+[COLOR dodgerblue][B]Version 1.1.95[/B][/COLOR]
+- Removed Civitas Scrapers.
+- Added Furk It Scrapers (shown as 'External' in sources).
+
+[COLOR dodgerblue][B]Version 1.1.91[/B][/COLOR]
+- Fixed suppressing scraper pop up when scraping for autoplay next episode.
+- Added 'Re-import Civitas Scrapers' to Tools Menu.
+- Added 'Civitas Scrapers Settings' and 'Resolve URL Settings' to Settings Menu.
+
+[COLOR dodgerblue][B]Version 1.1.90[/B][/COLOR]
+- Added Civitas Scraper integration.
+- Rewrote sources class.
+- Rewrote furk media sources.
+- Removed Universal Scrapers dependency and functionality.
+- Fixed incorrect marking of watched episodes when using autoplay next episode.
+- Other fixes.
+
+[COLOR dodgerblue][B]Version 1.1.88[/B][/COLOR]
+- Partial rewrite of sources.py.
+- Simplified Universal Scrapers implementation. (Really, this is a regression. Furk It now uses Universal Scrapers own dialog for searching, meaning any autoplay features set won't work with Universal Scrapers i.e. Autoplay, Autoplay Next Episode etc.)
+- Some Trakt Error handling improvements.
+
+[COLOR dodgerblue][B]Version 1.1.87[/B][/COLOR]
+- Improved Easynews quality detection.
+- Fixed Easynews Max Gig Size filtering.
+
+[COLOR dodgerblue][B]Version 1.1.86[/B][/COLOR]
+- Fixed results not auto scrolling on Kodi 17.
+- Fixed next episode during playback 'still watching?' notification.
+- Fixed 'Go to Page' feature as it broke with cacheToDisc change to movies and tvshows (stupid Kodi 18).
+- Remade context menu Next Episode Manager.
+- Added pagination to People Search results.
+
+[COLOR dodgerblue][B]Version 1.1.85.a[/B][/COLOR]
+- Prevented 'Add to My Files' and 'Download Archive' showing when result is from EasyNews
+- Changed Login label to 'Username' instead of 'Email'.
+- Unhid settings passwords.
+- Added setting to display/hide filenames in results.
+
+[COLOR dodgerblue][B]Version 1.1.85[/B][/COLOR]
+- Added EasyNews scraper. Set user email and password in Accounts settings.
+- Reorganized Search settings. (Hopefully not, but you may have to delete the settings.xml file in userdata if add-on behaves unexpectedly)
+- Added color highlight settings for Furk It Scrapers. Choose colors for all three Furk It Scrapers (Local, Furk and EasyNews).
+- Changed 'DOWNLOADING' label to 'ACTIVE' when an uncached torrent is being downloaded by Furk. (Missed that request before.)
+
+[COLOR dodgerblue][B]Version 1.1.84[/B][/COLOR]
+- Fixed resume selection if auto resolve or autoplay set (Kodi 18 bug).
+- Removed Universal Scrapers Fallback Search option.
+
+[COLOR dodgerblue][B]Version 1.1.83[/B][/COLOR]
+- Added 'DOWNLOADING' flag to uncached results that are being downloaded by Furk. Downloading info is cached for 1 hour, but is reset when you add a new file for Furk download, or open My Furk Active Downloads. It is designed to be a visual representation of what Furk is currently downloading for you, rather than necessarily a to the minute representation.
+- Fixed number of files display for My Furk Files.
+
+[COLOR dodgerblue][B]Version 1.1.82[/B][/COLOR]
+- Added remove download from list (select file when in My Furk Active Downloads to delete the download).
+- Fixed Uncached results showing despite off setting for direct Furk results.
+- Fixed local result showing twice in results.
+
+[COLOR dodgerblue][B]Version 1.1.81[/B][/COLOR]
+- Added Furk Active and Failed folders.
+- Added Uncached results to direct Furk search.
+- Rework of display and order of Uncached files.
+- NOTE: Some problems with Universal Scrapers at the moment. Will look into it sometime later.
+
+[COLOR dodgerblue][B]Version 1.1.80[/B][/COLOR]
+- Preliminary support for Uncached Torrents added. (Uncached currently only available from media search results i.e. through Movie or TV Show menus, not directly through Furk Menus. This will change but I was short of time.)
+
+[COLOR dodgerblue][B]Version 1.1.79[/B][/COLOR]
+- Added airdate format setting choice (Day-Month-Year, Year-Month_Day, Month-Day-Year). Thanks tknorris, wherever you are.
+- POSSIBLY fixed Manage In Progress Shows.
+- Fixed 'Include Airdate in Title' from Tools.
+- PROBABLY fixed color issues with Next Episode.
+- HOPEFULLY FINALLY Fixed Furk API issues on first use.
+
+[COLOR dodgerblue][B]Version 1.1.78[/B][/COLOR]
+- Fixed search history. (Moved history to database storage from settings storage. Still don't know why it stopped working.)
+- Remade Next Episodes. (Could be buggy, but I hope not.)
+- ABOUT NEXT EPISODES:
+**It is made to work with either Trakt watched history or watched history coming directly from the add-on. Whichever source you have set up for your watched indicators (Trakt or Furk It), that is the source Next Episodes will use.
+** Select 'Include Trakt Watchlist / Next Episode Unwatched' to include the first episode of every show you have in your watchlist.If you're not using Trakt, you can add unwatched shows to Next Episodes via the Add/Remove context menu item that appears for Movies and TV Shows.
+** Settings for Next Episodes can be accessed through the normal settings, through Tools==>Manage Next Episode Options or through the Context Menu when inside Next Episodes. I always like to have quick ways of getting to relevant settings. These settings include a 'Manage In Progress Shows'. If you are using Trakt for your watched indicators, then this screen allows you to 'Hide' shows directly through the add-on, without having to go to the trakt site to do it. Shows in the 'Manage In Progress Shows' menu will have [EXCLUDED] in front of them if they are hidden in Trakt, and [INCLUDED] if they are not. Simply selecting a show will toggle it's hidden setting; click a hidden show to unhide it, click an unhidden show to hide it. You can also browse into the show through the context menu if you want to see what episodes you've watched etc. All these options are available if you do not have a Trakt account, Furk It keeps local databases of watched media and hidden statuses etc for people without a Trakt account.
+
+[COLOR dodgerblue][B]Version 1.1.77[/B][/COLOR]
+- Playback changes for proper subtitle support.
+- Added multi-year search term for movies.
+- Download changes to settings and notification behaviour.
+- Settings menus options when navigating through add-on simplified as Kodi 18 does not navigate to a specific setting correctly.
+- Reorder settings slightly.
+- NOTE: Movie and TV Show search history broken. I have no idea why as Furk Video and Audio history still works and uses exactly the same function. I've given up for today and will fix it tomorrow!
+
+[COLOR dodgerblue][B]Version 1.1.76[/B][/COLOR]
+- Trimmed Download settings titles, fixed Download folder icons.
+- Added Notification options for Downloads (Every 10%, Constant, Off).
+- Added Hide Option for Download Notifications when playing video.
+- Couple of other minor fixes.
+
+[COLOR dodgerblue][B]Version 1.1.75[/B][/COLOR]
+- Added changelog info (found in Tools-->Show Latest Info).
+- Moved Clearing Tools to Submenu of Tools.
+- Added half second delay when opening settings from within add-on (Might fix settings.xml reset problem).
+- Change single Download folder to Movie Downloads, TV Show Downloads and Furk Downloads. Each needs to be assigned their own folder in settings.
+- ABOUT DOWNLOADS: When getting results from the Movie or TV Show menus, you must navigate down to the final file within any package so as the file saves in the correct folder. i.e. You need the Context Menu to display 'Download File' and not 'Download Archive' so as to save in the correct Movie or TV Show folder. Any file downloaded from within the Furk menus (My Furk Files, Furk Searches etc) will save straight to the Furk Downloads folder, as will any Archive files (season packs or archives from Furk search results).
+- Added Download Submenus for browsing new Download Folders.
+- Added default tmdb api key. Please replace in settings if you have your own.

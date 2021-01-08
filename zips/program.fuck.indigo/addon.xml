@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="program.fuck.indigo" version="0.0.2" name="Fuck Indigo" provider-name="MuadDib">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Force deletes Indigo on Kodi startup</summary>
+        <description>Fucks Indigo every Kodi startup. Because Fuck TVA</description>
+        <disclaimer lang="en">The author is not responsible for your addon. The authoer is also not responsible for breaking your stuff. You have been warned.</disclaimer>
+        <license>Beerware rev. 42</license>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>

@@ -1,0 +1,4 @@
+
+Verzija 1.0.0
+- Prva verzija
+

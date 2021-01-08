@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tojelako" name="[B]Tojelako Repository[/B]" version="1.7" provider-name="Tojelako">
+	<extension point="xbmc.addon.repository" name="Tojelako repository">
+	
+<dir>
+		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
+		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+	</dir>
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+    </dir>
+	
+	
+	
+	
+	<dir>
+		<info compressed="false">http://kodibalkan.com/tojelako/Programi/addons.xml</info>
+		<checksum>http://kodibalkan.com/tojelako/Programi/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodibalkan.com/tojelako/Programi/</datadir>
+		 </dir>
+	</extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Tojelako Repository</summary>
+		<description lang="en">Tojelako Wizard Buldovi od autora Tojelako.</description>
+		<platform>all</platform>
+		<forum>http://koditalk.org/</forum>
+		<website>https://streamhelp.org/</website>
+	  <assets>
+		<icon>icon.gif</icon>
+		<screenshot>resources/screenshots/screenshot1.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot2.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot3.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot4.jpg</screenshot>
+		<screenshot>resources/screenshots/screenshot5.jpg</screenshot>
+	  </assets>
+	  </extension>
+</addon>

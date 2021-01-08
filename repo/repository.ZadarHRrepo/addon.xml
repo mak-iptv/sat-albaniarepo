@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ZadarHRrepo" name=".[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.9.3" provider-name="ZadarTeam">
+	<extension point="xbmc.addon.repository" name="ZadarHRrepo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ZadarHRrepo by ZadarTeam</summary>
+		<description lang="en">U ovom repo cete naci najnovije addonove i buildove od nasega tima potpuno prilagodjenih za podrucje ExYu i balkana</description>
+		<genre>all</genre>
+		<news>
+Uživajte
+
+http://zadarbuild.com.hr
+</news>
+	</extension>
+</addon>
