@@ -40,9 +40,9 @@ class NoRedirection(urllib2.HTTPErrorProcessor):
        return response
    https_response = http_response
        
-Q1BiYXNl = 'https://raw.githubusercontent.com/mak-iptv/iptv/master/Balkanlive.xml'
+Q1BiYXNl = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21hay1pcHR2L2lwdHYvbWFzdGVyL0JhbGthbmxpdmUueG1s'
 
-addon = xbmcaddon.Addon('plugin.video.SatalbaniaTV')
+addon = xbmcaddon.Addon('plugin.video.SatAlbaniaTV')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
@@ -73,7 +73,7 @@ def addon_log(string):
 def makeRequest(url, headers=None):
         try:
             if headers is None:
-                headers = {'User-agent' : '2139jkjks;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0'}
+                headers = {'User-agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0'}
             req = urllib2.Request(url,None,headers)
             response = urllib2.urlopen(req)
             data = response.read()
