@@ -40,7 +40,7 @@ class NoRedirection(urllib2.HTTPErrorProcessor):
        return response
    https_response = http_response
        
-Q1BiYXNl = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21hay1pcHR2L2lwdHYvbWFzdGVyL0JhbGthbmxpdmUueG1s'
+Q1BiYXNl = 'https://raw.githubusercontent.com/mak-iptv/iptv/master/Balkanlive.xml'
 
 addon = xbmcaddon.Addon('plugin.video.SatAlbaniaTV')
 addon_version = addon.getAddonInfo('version')
