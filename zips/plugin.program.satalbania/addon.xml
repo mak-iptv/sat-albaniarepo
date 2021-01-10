@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+                   <!--// Sat Albania Wizard \\-->
+
+<addon id="plugin.program.satalbania" name="[B][COLOR lime]Sat Albania[B][COLOR white]Wizard[/COLOR][/B]" version="1.1.2" provider-name="[B][COLOR lime]Sat Albania[/COLOR][/B]">.
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sat Albania Wizard</summary>
+    <description lang="en">Thanks for using Sat Albania Wizard...</description>
+    <platform>all</platform>
+	<website>https://kodibalkan.com</website>
+  </extension>
+</addon>
