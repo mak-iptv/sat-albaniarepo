@@ -10,9 +10,7 @@
   <extension point="xbmc.addon.metadata">
   <platform>all</platform>
 <summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. Za vise informacija [COLOR=cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR].</summary>
-<description lang="al">  Ky  addon nuk përmban asnjë përmbajtje brenda ne program , por vetëm lidhje që çojnë në transmetim. Për më shumë informacion [COLOR = cian] forumi [/ COLOR] koha: [COLOR = limegreen] sat-albania [/ COLOR].
-
-</description>
+<description lang="al">  Ky  addon nuk përmban asnjë përmbajtje brenda ne program , por vetëm lidhje që çojnë në transmetim. Për më shumë informacion [COLOR = cian] forumi [/ COLOR] koha: [COLOR = limegreen] sat-albania [/ COLOR].</description>
 
 		
   </extension>
