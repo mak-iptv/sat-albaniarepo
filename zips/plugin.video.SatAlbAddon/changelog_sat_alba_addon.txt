@@ -1,0 +1,8 @@
+Verzija 0.0.1
+- Pocetna verzija
+
+Verzija 1.1.5
+- Promijena izgleda
+
+
+

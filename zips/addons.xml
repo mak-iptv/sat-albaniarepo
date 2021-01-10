@@ -366,19 +366,37 @@
 	 </extension>
 </addon>
 
-<addon id="plugin.video.SatalbaniaTV" name="[B][COLOR limegreen]SatAlbaniaTV[/B][/COLOR] [B][COLOR white]AlbaAddon[/B][/COLOR]" version="0.0.1" provider-name="SatAlbaniaTV">
-  <requires>
-    
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
- 
-<summary lang="hr_HR">Ovaj add-on ne sadrzi nikakav sadrzaj unutar add-ona vec samo linkove koji vode do strimova. Za vise informacija [COLOR=cyan]forum[/COLOR] sat: [COLOR=limegreen]sat-albania[/COLOR].</summary>
-<description lang="al">  Ky  addon nuk përmban asnjë përmbajtje brenda ne program , por vetëm lidhje që çojnë në transmetim. Për më shumë informacion [COLOR = cian] forumi [/ COLOR] koha: [COLOR = limegreen] sat-albania [/ COLOR].</description>
- <platform>all</platform>
-		
+<addon 
+		id="plugin.video.SatAlbAddon" 
+		name="[COLOR=lime]Balkan SatAlb[/COLOR] [COLOR white]Addon[/COLOR]" 
+		version="1.1.5" 
+		provider-name="Kodi  Satalba">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.simple.downloader" version="0.9.4"/>
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.simple.downloader" version="0.9.4"/>
+		<import addon="script.module.requests" />
+		<import addon="script.module.httplib2" />
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" version="3.0.0"/>
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.simplejson" /> 
+		<import addon="script.common.plugin.cache" version="2.5.2"/>
+		<import addon="script.module.metahandler" version="2.5.1"/>
+	  </requires>
+			<extension point="xbmc.python.pluginsource" library="default.py">
+				<provides>video</provides>
+			</extension>
+		<extension point="xbmc.addon.metadata"> 
+			<summary lang="en_GB">[COLOR red]Sat-albania Tv[/COLOR]</summary>
+		<description lang="en_GB">[COLOR red]Sat-Albania Tv[/COLOR]</description>
+		<news lang="en_GB">Germany</news>		
+		<disclaimer lang="en_GB">Germany</disclaimer>
+		<platform>all</platform>
+		<website>http://sat-albania.com</website>
   </extension>
 </addon>
 <addon id="plugin.video.MakiptvTv" name="[B][COLOR red]Live MakiptvTv[/COLOR][/B]" version="1.0" provider-name="MakiptvTv">
