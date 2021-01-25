@@ -15,6 +15,6 @@ Load Balances Are NOT installing , Taken Down ( We Are Currently Working on A fi
 
 ------------------
 [1] wget  https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/install.sh && chmod a+x install.sh && ./install.sh
-
-
+[2] wget  https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/xtreamcodes_1.0.60.sh && chmod a+x xtreamcodes_1.0.60.sh && ./xtreamcodes_1.0.60.sh
+[3]  wget  https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/xtreamcodes_1.0.60_2018.sh && chmod a+x xtreamcodes_1.0.60_2018.sh && ./xtreamcodes_1.0.60_2018.sh
 [2] Licences: 'bubi1' 'bubi2' 'bubi3' 'bubi4' 'bubi5' 'bubi6'
