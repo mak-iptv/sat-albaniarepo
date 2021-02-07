@@ -2,7 +2,7 @@
 clear
 echo " "
 echo -e "${txtyellow} ┌────────────────────────────────────────────┐ "
-echo -e "${txtyellow} │[R]        Welcome to Brutus Panel          │ "
+echo -e "${txtyellow} │[R]        Welcome to  Xtream Codes Panel          │ "
 echo -e "${txtyellow} └────────────────────────────────────────────┘ "
 PS3='Please enter your choice: '
 options=("https installation" "http installation" "Quit")
@@ -14,7 +14,7 @@ do
             break
             ;;
         "http installation")
-            wget -q -O installx.sh https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/installx.sh && chmod +x installx.sh && ./installx.sh
+            wget -q -O http.sh https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/http.sh && chmod +x http.sh && ./http.sh
             break
             ;;
         "Quit")
