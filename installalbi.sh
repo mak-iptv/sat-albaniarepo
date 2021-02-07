@@ -1,4 +1,4 @@
-#!/bin/bash
+00#!/bin/bash
 clear
 #### variable couleurs ...
 txtgreen=$(tput bold ; tput setaf 2) # GreenBold
@@ -9,18 +9,18 @@ echo -e "${txtblue} │[R]    Check Version of OS Please Wait...   │ "
 echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 sleep 3s
-#check ubuntu 14.04 is installed 
-if [[ `lsb_release -rs` == "14.04" ]] 
+#check ubuntu 16.04 is installed 
+if [[ `lsb_release -rs` == "16.04" ]] 
 then
 echo " "
 echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
-echo -e "${txtblue} │[R]  ubuntu 14.04 is installed...proceed    │ "
+echo -e "${txtblue} │[R]  ubuntu 16.04 is installed...proceed    │ "
 echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 else
 echo " "
 echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
-echo -e "${txtblue} │[R] ubuntu 1.04 is not installed...exiting │ "
+echo -e "${txtblue} │[R] ubuntu 16.04 is not installed...exiting │ "
 echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 exit 1
