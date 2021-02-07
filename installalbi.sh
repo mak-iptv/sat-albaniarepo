@@ -4,33 +4,33 @@ clear
 txtgreen=$(tput bold ; tput setaf 2) # GreenBold
 txtyellow=$(tput bold ; tput setaf 3) # YellowBold
 echo " "
-echo -e "${txtyellow} ┌────────────────────────────────────────────┐ "
-echo -e "${txtyellow} │[R]    Check Version of OS Please Wait...   │ "
-echo -e "${txtyellow} └────────────────────────────────────────────┘ "
+echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
+echo -e "${txtblue} │[R]    Check Version of OS Please Wait...   │ "
+echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 sleep 3s
-#check ubuntu 18.04 is installed 
-if [[ `lsb_release -rs` == "18.04" ]] 
+#check ubuntu 14.04 is installed 
+if [[ `lsb_release -rs` == "14.04" ]] 
 then
 echo " "
-echo -e "${txtyellow} ┌────────────────────────────────────────────┐ "
-echo -e "${txtyellow} │[R]  ubuntu 18.04 is installed...proceed    │ "
-echo -e "${txtyellow} └────────────────────────────────────────────┘ "
+echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
+echo -e "${txtblue} │[R]  ubuntu 14.04 is installed...proceed    │ "
+echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 else
 echo " "
-echo -e "${txtyellow} ┌────────────────────────────────────────────┐ "
-echo -e "${txtyellow} │[R] ubuntu 18.04 is not installed...exiting │ "
-echo -e "${txtyellow} └────────────────────────────────────────────┘ "
+echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
+echo -e "${txtblue} │[R] ubuntu 1.04 is not installed...exiting │ "
+echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 exit 1
 fi
 sleep 3s
 clear
 echo " "
-echo -e "${txtyellow} ┌────────────────────────────────────────────┐ "
-echo -e "${txtyellow} │[R]      BRUTUS SCRIPT Please Wait...       │ "
-echo -e "${txtyellow} └────────────────────────────────────────────┘ "
+echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
+echo -e "${txtblue} │[R]      BRUTUS SCRIPT Please Wait...       │ "
+echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 apt-get update &> /dev/null
 sleep 1s
@@ -38,9 +38,9 @@ apt-get install net-tools curl -y &> /dev/null
 sleep 1s
 clear
 echo " "
-echo -e "${txtyellow} ┌────────────────────────────────────────────┐ "
-echo -e "${txtyellow} │[R]       STARTING BRUTUS SCRIPT...         │ "
-echo -e "${txtyellow} └────────────────────────────────────────────┘ "
+echo -e "${txtblue} ┌────────────────────────────────────────────┐ "
+echo -e "${txtyblue} │[R]       STARTING BRUTUS SCRIPT...         │ "
+echo -e "${txtblue} └────────────────────────────────────────────┘ "
 echo " "
 #### variable pour mysql : pass, host , carte reseau ...
 blofish=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 50 | head -n 1)
