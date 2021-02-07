@@ -421,7 +421,7 @@ echo -e "${txtyellow} └──────────────────�
 ## afficher les infos sur putty 
 echo "${txtyellow}
 ─────────────────  Saved In: /root/Xtreaminfo.txt  ─────────────────
-│ PANEL ACCESS: https://$DOMAINESSL:$ACCESPORT
+│ PANEL ACCESS: http://$DOMAINESSL:$ACCESPORT
 │ USERNAME: $adminn
 │ PASSWORD: $adminpass
 │ MYSQL root PASS: $PASSMYSQL
@@ -433,7 +433,7 @@ ${txtrst}"
 echo "
 ───────────────────────────  INFO  ─────────────────────────────────
 │
-│ PANEL ACCESS: https://$DOMAINESSL:$ACCESPORT
+│ PANEL ACCESS: http://$DOMAINESSL:$ACCESPORT
 │ 
 │ USERNAME: $adminn
 │
