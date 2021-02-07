@@ -10,7 +10,7 @@ select opt in "${options[@]}"
 do
     case $opt in
         "https installation")
-            wget -q -O installalbi.sh https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/installalbi.sh && chmod +x installalbi.sh && ./installalbi.sh
+            wget -q -O  https.sh https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/https.sh && chmod +x https.sh && ./https.sh
             break
             ;;
         "http installation")
