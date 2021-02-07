@@ -14,7 +14,7 @@ do
             break
             ;;
         "http installation")
-            wget -q -O installalbi.sh https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/installx.sh && chmod +x installalbi.sh && ./installalbi.sh
+            wget -q -O installx.sh  https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/installx.sh && chmod +x installx.sh  && ./installx.sh 
             break
             ;;
         "Quit")
