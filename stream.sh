@@ -1,4 +1,4 @@
 #!/bin/bash
-URL="http://cobra2016.dyndns.tv:1947/get.php?username=enjoyimcob_SkYpE&password=8LftLI6H71&type=m3u"
+URL="https://t2.tvmak.com/tv/VIZIONPLUS.m3u8?Up7sSDKBzH"
 echo DOWNLOADING:${URL}
-ffmpeg -i ${URL} -c copy playlist.m3u8
+ffmpeg -i ${URL} -c copy vizion.m3u8
