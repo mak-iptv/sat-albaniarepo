@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+<title>[B][COLOR blue]ALBANIA[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>http://pici.life/albania.png</thumbnail>
+<fanart>http://pici.life/albania.png</fanart>
+<info>LIVE TV ALBANIA/info>
+<externallink>https://raw.githubusercontent.com/mak-iptv/m3u/main/playlist.m3u</externallink>
+</item>
+<item>
+<title>[B][COLOR red]SL BENFICA[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/SLBENFICA.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/SLBENFICA.jpg</fanart>
+<info>Espaco dedicado a Replays de jogos do SL BENFICA</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0202_SLB.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR green]SPORTING CP[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/SPORTINGCP.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/SPORTINGCP.jpg</fanart>
+<info>Espaco dedicado a Replays de jogos do SPORTING CP</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0203_SCP.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]LIGA NOS Replays[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/LIGANOS.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/LIGANOS.jpg</fanart>
+<info>Espaco dedicado a Replays da Liga NOS</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0204_LIGANOS.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]MUNDIAL 2018[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/FIFA2018.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/FIFA2018.jpg</fanart>
+<info>Espaco dedicado a Replays do Mundial 2018</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0205_FIFA2018.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]PROGRAMAS  DESPORTIVOS[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/PROGDESPORTIVOS.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/PROGDESPORTIVOS.jpg</fanart>
+<info>Programas desportivos de debate</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0206_PROGDESP.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]UEFA.TV[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/UEFATV.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/TV.jpg</fanart>
+<info>UEFA.TV em direto</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0207_UEFATV.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]FIFA.TV[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/FIFATV.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/TV.jpg</fanart>
+<info>UEFA.TV em direto</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0208_FIFATV.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]FORMULA 1[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/FORMULA1.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/FORMULA1.jpg</fanart>
+<info>Canal FORMULA 1 no Youtube</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0209_FORMULA1.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]MOTO GP[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/MOTOGP.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/MOTOGP.jpg</fanart>
+<info>Canal MOTOGP no Youtube</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0210_MOTOGP.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]NFL[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/NFL.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/NFL.jpg</fanart>
+<info>Canal da NFL no Youtube</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0211_NFL.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]UFC[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/UFC.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/UFC.jpg</fanart>
+<info>Canal UFC no Youtube</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0212_UFC.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]WWE[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/WWE.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/WWE,jpg</fanart>
+<info>Canal WWE no Youtube</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0213_WWE.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR deepskyblue]BURNING WHEELS[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/BURNINGWHEELS.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/BURNINGWHEELS.jpg</fanart>
+<info>Espaço dedicado a repetições de eventos motorizados</info>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0214_BURNINGWHEELS.xml</externallink>
+</item>
+Copyright © 2018 - TeamBlue
