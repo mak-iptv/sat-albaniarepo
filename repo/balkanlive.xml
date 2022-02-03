@@ -5,31 +5,31 @@
 <thumbnail>http://pici.life/albania.png</thumbnail>
 <fanart>http://pici.life/albania.png</fanart>
 <info>LIVE TV ALBANIA/info>
-<externallink>https://raw.githubusercontent.com/mak-iptv/m3u/main/playlist.m3u</externallink>
+<externallink>https://raw.githubusercontent.com/mak-iptv/m3u/main/ALBNIA.m3u</externallink>
 </item>
 <item>
-<title>[B][COLOR red]SL BENFICA[/B][/COLOR]</title>
+<title>[B][COLOR red]MACEDONIA TV[/B][/COLOR]</title>
 <link>http://ignorame</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/SLBENFICA.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/SLBENFICA.jpg</fanart>
-<info>Espaco dedicado a Replays de jogos do SL BENFICA</info>
-<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0202_SLB.xml</externallink>
+<thumbnail>http://pici.life/Macedonia.png</thumbnail>
+<fanart>http://pici.life/Macedonia.png</fanart>
+<info>MACEDONIA  TV</info>
+<externallink>https://raw.githubusercontent.com/mak-iptv/m3u/main/Macedonia.m3u</externallink>
 </item>
 <item>
-<title>[B][COLOR green]SPORTING CP[/B][/COLOR]</title>
+<title>[B][COLOR green]BULGARIA TV[/B][/COLOR]</title>
 <link>http://ignorame</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/SPORTINGCP.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/SPORTINGCP.jpg</fanart>
-<info>Espaco dedicado a Replays de jogos do SPORTING CP</info>
-<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0203_SCP.xml</externallink>
+<thumbnail>http://pici.life/bulgaria.png</thumbnail>
+<fanart>http://pici.life/bulgaria.png</fanart>
+<info>live tv from bulgaria</info>
+<externallink>https://raw.githubusercontent.com/mak-iptv/m3u/main/Bulgaria.m3u</externallink>
 </item>
 <item>
-<title>[B][COLOR deepskyblue]LIGA NOS Replays[/B][/COLOR]</title>
+<title>[B][COLOR deepskyblue]LIVETV WORLD[/B][/COLOR]</title>
 <link>http://ignorame</link>
-<thumbnail>https://raw.githubusercontent.com/teamblue65/ICOaddon/master/LIGANOS.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/teamblue65/FAN/master/LIGANOS.jpg</fanart>
-<info>Espaco dedicado a Replays da Liga NOS</info>
-<externallink>https://raw.githubusercontent.com/teamblue65/LISTASKodi/master/M02_0204_LIGANOS.xml</externallink>
+<thumbnail>http://sat-albania.com/core/images/forumicons/application-smart-iptv.jpg</thumbnail>
+<fanart>http://sat-albania.com/core/images/forumicons/application-smart-iptv.jpg</fanart>
+<info>IPTV</info>
+<externallink>http://ipflix.click:8080/get.php?username=qstsqyhj4e&password=3hmthgib49&type=m3u_plus</externallink>
 </item>
 <item>
 <title>[B][COLOR deepskyblue]MUNDIAL 2018[/B][/COLOR]</title>
