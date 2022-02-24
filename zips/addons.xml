@@ -348,7 +348,7 @@
 
 				
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.SATALBANIA" version="3.0.1" name="[COLOR=lime]SAT[/COLOR] [COLOR=white]ALBANIA 19 [/COLOR]" provider-name="SAT ALBANIA">
+<addon id="plugin.video.SATALBANIA19" version="3.0.1" name="[COLOR=lime]SAT[/COLOR] [COLOR=white]ALBANIA 19[/COLOR]" provider-name="SAT ALBANIA">
     <requires>
 	    <import addon="script.module.requests"/>
         <import addon="script.module.resolveurl"/>
@@ -366,8 +366,8 @@
     </extension>
 <extension library="service.py" point="xbmc.service" start="startup"/>
     <extension point="xbmc.addon.metadata">
-     <summary lang="en">SATALBANIA</summary>
-        <description lang="en">SATALBANIA</description>
+     <summary lang="en">SATALBANIA  KODI 19 </summary>
+        <description lang="en">SATALBANIA  KODI 19 </description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
