@@ -129,7 +129,8 @@
 
 	
 	
-	<addon id="plugin.video.SATALBANIA19" version="3.0.1" name="[COLOR=lime]SAT[/COLOR] [COLOR=white]ALBANIA 19[/COLOR]" provider-name="SAT ALBANIA">
+	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.SATALBANIA" version="3.0.1" name="[COLOR=lime]SAT[/COLOR] [COLOR=white]ALBANIA 19[/COLOR]" provider-name="SatAlbania">
     <requires>
 	    <import addon="script.module.requests"/>
         <import addon="script.module.resolveurl"/>
