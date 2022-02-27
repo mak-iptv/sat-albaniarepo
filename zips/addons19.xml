@@ -309,7 +309,7 @@
 		
 		
 
-<addon id="repository.satalbania" name="[B][COLOR lime]Sat Albania 19[B][COLOR white] Repository[/COLOR][/B]" version="1.2" provider-name="Satalbania">
+<addon id="repository.satalbania" name="[B][COLOR lime]Sat Albania[B][COLOR white] Repository[/COLOR][/B]" version="1.2" provider-name="Satalbania">
 	<extension point="xbmc.addon.repository" name="SatAlbania repository">
     <info compressed="false">https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/zips/addons19.xml</info>
 		<checksum>https://raw.githubusercontent.com/mak-iptv/sat-albaniarepo/main/zips/addons19.xml.md5</checksum>
