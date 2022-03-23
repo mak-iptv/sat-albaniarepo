@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.BlueThunder"
-  version="20.0.0"
+  version="20.2.1"
   name="BlueThunder Client"
-  provider-name="Green Addon">
+  provider-name="SATALBANIA  KODI 19">
   <requires>
 <import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
