@@ -304,7 +304,7 @@
 	
 	
 	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.SATALBANIA" version="3.0.1" name="[COLOR=lime]SAT[/COLOR] [COLOR=white]ALBANIA 19[/COLOR]" provider-name="SatAlbania">
+<addon id="plugin.video.SATALBANIA" version="3.0.2" name="[COLOR=lime]SAT[/COLOR] [COLOR=white]ALBANIA 19[/COLOR]" provider-name="SatAlbania">
     <requires>
 	    <import addon="script.module.requests"/>
         <import addon="script.module.resolveurl"/>
@@ -315,7 +315,7 @@
         <import addon="script.module.GreenSCRAPE"/>
 		<import addon="plugin.video.youtube" optional="true"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-		<import addon="pvr.BlueThunder"/>
+		
 	</requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -333,6 +333,7 @@
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.nightwing" name="[COLORblue]Nightwing[/COLOR]" provider-name="Magnetic" version="1.1.3">
     <requires>
