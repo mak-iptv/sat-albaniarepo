@@ -126,9 +126,7 @@
 		</assets>
 	</extension>
 </addon>
-
-	
-	<addon
+<addon
   id="pvr.BlueThunder"
   version="20.2.1"
   name="BlueThunder Client"
