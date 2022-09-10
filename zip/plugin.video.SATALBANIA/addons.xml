@@ -10,7 +10,7 @@
         <import addon="script.module.GreenSCRAPE"/>
 		<import addon="plugin.video.youtube" optional="true"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-		
+		<import addon="pvr.BlueThunder"/>
 	</requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
